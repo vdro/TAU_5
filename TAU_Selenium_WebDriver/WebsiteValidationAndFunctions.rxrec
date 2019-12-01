@@ -2158,81 +2158,6 @@ KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//2Q==
 			</matchvalue>
 		</validationitem>
 		<validationitem
-		action="ContainsImage"
-		codegenpropertyname="Sklep_Screenshot1"
-		duration="100ms"
-		enabled="True"
-		imagerect="0,0,98,46"
-		optional="False"
-		screenshotguid="886409b1-db4d-47fc-8f13-63a70ebe86da"
-		screenshotname="Screenshot1"
-		searchpropertyid="9379acd8-dce7-4f5d-97a0-159d2d7b0c8f">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="bf504ba0-9681-415b-8c1c-e687877d5dd7"
-			sourcename="ElementTree">
-				<element
-				capabilities="webelement, atag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="0"
-				prefcap="atag"
-				rect="2916,262,117,55"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						elementor-item
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						True
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-						Sklep
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						elementor-item
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						a
-					</attribute>
-					<attribute
-					name="href"
-					type="System.String">
-						https://allegro.pl/uzytkownik/vdro?order=m
-					</attribute>
-				</element>
-				<path>
-					/dom[@domain='bioptron-gdansk.pl']/body/div[1]/div/div/section[2]/div/div/div/div/div/div/div/nav[1]/ul/li[5]/a[@innertext='Sklep']
-				</path>
-			</info>
-			<matchname>
-			</matchname>
-			<matchvalue>
-			</matchvalue>
-		</validationitem>
-		<validationitem
 		action="AttributeEqual"
 		duration="100ms"
 		enabled="True"
@@ -2644,7 +2569,7 @@ z 5 bezp&#322;atnych na&#347;wietle&#324;
 			</matchvalue>
 		</validationitem>
 		<loggingrecorditem
-		action="Snapshot"
+		action="Screenshot"
 		category="User"
 		enabled="True"
 		message=""

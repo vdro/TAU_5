@@ -2,14 +2,6 @@
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
-			<testcase
-			datasource="TestCase_for_LogIn_Register_Feature_DataSource"
-			id="08d52453-8c0b-4e77-aa4f-569f0ffccbad"
-			name="TestCase_for_LogIn/Register_Feature">
-				<description>
-					<![CDATA[<p><a href="http://automationpractice.com/"><font color="#0066cc">http://automationpractice.com/</font></a></p>]]>
-				</description>
-			</testcase>
 			<testmodule
 			id="0b2eb71c-ed93-42f9-bb2a-81fc9a6c0c95"
 			name="FormFieldValidation"
@@ -70,6 +62,10 @@
 					value="">
 					</param>
 				</parameters>
+			</testcase>
+			<testcase
+			id="440fff8f-060a-4a6d-8226-e4bcb99de2bb"
+			name="TestCase_for_LogIn/Register_Feature">
 			</testcase>
 			<testmodule
 			id="487a2ec9-e89f-41c8-bdb8-c891c623c783"
@@ -160,7 +156,7 @@
 						</testmodule>
 					</testcase>
 					<testcase
-					id="08d52453-8c0b-4e77-aa4f-569f0ffccbad"
+					id="440fff8f-060a-4a6d-8226-e4bcb99de2bb"
 					name="TestCase_for_LogIn/Register_Feature">
 						<smartfoldernode
 						id="71f00cad-7c2f-45e8-a782-5cab6b6bd77b"
@@ -228,6 +224,12 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
+			id="100cc41b-9ae9-4f37-a588-4b64c512dc86">
+			</testcontainer>
+			<testcontainer
+			id="11addd88-06e1-43db-948c-fa0af0dccd77">
+			</testcontainer>
+			<testcontainer
 			id="13ca27d1-e138-41e2-b601-11d80abbdbf9">
 			</testcontainer>
 			<testcontainer
@@ -235,6 +237,12 @@
 			</testcontainer>
 			<testcontainer
 			id="3faac712-2710-47e8-9a45-f4fd4aa3064e">
+			</testcontainer>
+			<testcontainer
+			id="440fff8f-060a-4a6d-8226-e4bcb99de2bb">
+			</testcontainer>
+			<testcontainer
+			id="71f00cad-7c2f-45e8-a782-5cab6b6bd77b">
 			</testcontainer>
 			<testcontainer
 			id="e5917357-213c-434a-8407-2d0f5c8f5856">

@@ -167,39 +167,23 @@ namespace TAU_Selenium_WebDriver
             Validate.AttributeEqual(repo.BioptronZepterGdanskBioptronZepter.ElementorSectionWrap.SklepInfo, "Href", "https://allegro.pl/uzytkownik/vdro?order=m");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=98,Height=46}) on item 'BioptronZepterGdanskBioptronZepter.ElementorSectionWrap.Sklep'.", repo.BioptronZepterGdanskBioptronZepter.ElementorSectionWrap.SklepInfo, new RecordItemIndex(19));
-            Validate.ContainsImage(repo.BioptronZepterGdanskBioptronZepter.ElementorSectionWrap.SklepInfo, Sklep_Screenshot1, Sklep_Screenshot1_Options);
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Umów się na bezpłatne konsultacje!\n Zapraszamy i Informujemy o możliwości skorzystania \nz 5 bezpłatnych naświetleń') on item 'BioptronZepterGdanskBioptronZepter.ElementorSectionWrap.UmowSięNaBezpłatneKonsultacjeZapra'.", repo.BioptronZepterGdanskBioptronZepter.ElementorSectionWrap.UmowSięNaBezpłatneKonsultacjeZapraInfo, new RecordItemIndex(20));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Umów się na bezpłatne konsultacje!\n Zapraszamy i Informujemy o możliwości skorzystania \nz 5 bezpłatnych naświetleń') on item 'BioptronZepterGdanskBioptronZepter.ElementorSectionWrap.UmowSięNaBezpłatneKonsultacjeZapra'.", repo.BioptronZepterGdanskBioptronZepter.ElementorSectionWrap.UmowSięNaBezpłatneKonsultacjeZapraInfo, new RecordItemIndex(19));
             Validate.AttributeEqual(repo.BioptronZepterGdanskBioptronZepter.ElementorSectionWrap.UmowSięNaBezpłatneKonsultacjeZapraInfo, "InnerText", "Umów się na bezpłatne konsultacje!\n Zapraszamy i Informujemy o możliwości skorzystania \nz 5 bezpłatnych naświetleń");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (SafeClass='elementor-heading-title elementor-size-default') on item 'BioptronZepterGdanskBioptronZepter.ElementorSectionWrap.UmowSięNaBezpłatneKonsultacjeZapra'.", repo.BioptronZepterGdanskBioptronZepter.ElementorSectionWrap.UmowSięNaBezpłatneKonsultacjeZapraInfo, new RecordItemIndex(21));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (SafeClass='elementor-heading-title elementor-size-default') on item 'BioptronZepterGdanskBioptronZepter.ElementorSectionWrap.UmowSięNaBezpłatneKonsultacjeZapra'.", repo.BioptronZepterGdanskBioptronZepter.ElementorSectionWrap.UmowSięNaBezpłatneKonsultacjeZapraInfo, new RecordItemIndex(20));
             Validate.AttributeEqual(repo.BioptronZepterGdanskBioptronZepter.ElementorSectionWrap.UmowSięNaBezpłatneKonsultacjeZapraInfo, "SafeClass", "elementor-heading-title elementor-size-default");
             Delay.Milliseconds(100);
             
-            Report.Snapshot(ReportLevel.Info, "User", "", repo.BioptronZepterGdanskBioptronZepter.Self, new RecordItemIndex(22));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.BioptronZepterGdanskBioptronZepter.Self, false, new RecordItemIndex(21));
             
-            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'BioptronZepterGdanskBioptronZepter'.", repo.BioptronZepterGdanskBioptronZepter.SelfInfo, new RecordItemIndex(23));
+            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'BioptronZepterGdanskBioptronZepter'.", repo.BioptronZepterGdanskBioptronZepter.SelfInfo, new RecordItemIndex(22));
             Host.Current.CloseApplication(repo.BioptronZepterGdanskBioptronZepter.Self, 100);
             Delay.Milliseconds(0);
             
         }
 
 #region Image Feature Data
-        /// <summary>
-        /// DO NOT REFERENCE THIS CODE  - auto generated
-        /// </summary>
-        CompressedImage Sklep_Screenshot1
-        { get { return repo.BioptronZepterGdanskBioptronZepter.ElementorSectionWrap.SklepInfo.GetScreenshot1(new Rectangle(0, 0, 98, 46)); } }
-
-        /// <summary>
-        /// DO NOT REFERENCE THIS CODE  - auto generated
-        /// </summary>
-        Imaging.FindOptions Sklep_Screenshot1_Options
-        { get { return Imaging.FindOptions.Default; } }
-
 #endregion
     }
 #pragma warning restore 0436

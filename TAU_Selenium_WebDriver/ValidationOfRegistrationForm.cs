@@ -118,13 +118,13 @@ namespace TAU_Selenium_WebDriver
             Validate.AttributeEqual(repo.LoginMyStore.EmailCreateInfo, "TagName", "input");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue='123@123.pl') on item 'LoginMyStore.EmailCreate'.", repo.LoginMyStore.EmailCreateInfo, new RecordItemIndex(10));
-            Validate.AttributeEqual(repo.LoginMyStore.EmailCreateInfo, "TagValue", "123@123.pl");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (Value>'@') on item 'LoginMyStore.EmailCreate'.", repo.LoginMyStore.EmailCreateInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeContains (Value>'@') on item 'LoginMyStore.EmailCreate'.", repo.LoginMyStore.EmailCreateInfo, new RecordItemIndex(10));
             Validate.AttributeContains(repo.LoginMyStore.EmailCreateInfo, "Value", "@");
             Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'LoginMyStore'.", repo.LoginMyStore.SelfInfo, new RecordItemIndex(11));
+            Host.Current.CloseApplication(repo.LoginMyStore.Self, new Duration(0));
+            Delay.Milliseconds(0);
             
         }
 

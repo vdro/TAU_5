@@ -1482,145 +1482,6 @@ H//Z
 			</matchvalue>
 		</validationitem>
 		<validationitem
-		action="AttributeEqual"
-		duration="100ms"
-		enabled="True"
-		optional="False"
-		searchpropertyid="2e3b6fd7-6881-4c34-a365-e20c19435a2f">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="57f9edc5-f8ab-4d73-9d0c-449ced54cf1b"
-			sourcename="ElementTree">
-				<element
-				capabilities="webelement, inputtag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="1"
-				prefcap="inputtag"
-				rect="2046,722,271,27"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						is_required validate account_input form-control
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="id"
-					type="System.String">
-						email_create
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						account_input form-control is_required validate
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						input
-					</attribute>
-					<attribute
-					name="tagvalue"
-					type="System.String">
-						123@123.pl
-					</attribute>
-					<attribute
-					name="autofocus"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="checked"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="disabled"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="height"
-					type="System.String">
-						0
-					</attribute>
-					<attribute
-					name="multiple"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="name"
-					type="System.String">
-						email_create
-					</attribute>
-					<attribute
-					name="required"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="size"
-					type="System.String">
-						20
-					</attribute>
-					<attribute
-					name="type"
-					type="System.String">
-						text
-					</attribute>
-					<attribute
-					name="value"
-					type="System.String">
-						123@123.pl
-					</attribute>
-					<attribute
-					name="width"
-					type="System.String">
-						0
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="data-validate"
-					readonly="False"
-					type="System.String">
-						isEmail
-					</dynamicattribute>
-				</element>
-				<path>
-					/dom[@domain='automationpractice.com']//input[#'email_create']
-				</path>
-			</info>
-			<matchname>
-				TagValue
-			</matchname>
-			<matchvalue>
-				123@123.pl
-			</matchvalue>
-		</validationitem>
-		<validationitem
 		action="AttributeContains"
 		duration="100ms"
 		enabled="True"
@@ -1759,6 +1620,24 @@ H//Z
 				@
 			</matchvalue>
 		</validationitem>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="e49fd9bc-d3cb-425a-929a-d50e4ccffe07">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a4d61784-17fa-4817-a3b2-5f97d6ba4841"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='automationpractice.com']
+				</path>
+			</info>
+		</closeapprecorditem>
 	</recorditems>
 	<repository
 	id="b34ca9bb-6d54-489c-b2ac-fe86fc90194c"
