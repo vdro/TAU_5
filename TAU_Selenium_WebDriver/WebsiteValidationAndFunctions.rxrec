@@ -23,6 +23,10 @@ mode="Global">
 	namespace="TAU_Selenium_WebDriver">
 	</codegen>
 	<variables>
+		<var
+		id="884edca0-9471-4ec5-bbc8-523b4134f773"
+		name="NewVariable">
+		</var>
 	</variables>
 	<recorditems>
 		<openwebsiterecorditem
@@ -1336,111 +1340,6 @@ AKKKKACiiigAooooAKKKKACiiigAooooA//Z
 			</matchvalue>
 		</validationitem>
 		<validationitem
-		action="ContainsImage"
-		codegenpropertyname="HttpBioptronGdanskPlWpContentUpl1_Screenshot1"
-		duration="100ms"
-		enabled="True"
-		imagerect="0,0,190,200"
-		optional="False"
-		screenshotguid="2ae57a75-ec2d-421f-8a2c-c402b1e2ab88"
-		screenshotname="Screenshot1"
-		searchpropertyid="43ce9546-3dfc-4213-8aa6-2366f679f3be">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="152f0261-7f72-4821-8e57-637b81bd7d1a"
-			sourcename="ElementTree">
-				<element
-				capabilities="webelement, imgtag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="0"
-				prefcap="imgtag"
-				rect="2359,362,190,200"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						attachment-full size-full
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						True
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						attachment-full size-full
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						img
-					</attribute>
-					<attribute
-					name="alt"
-					type="System.String">
-					</attribute>
-					<attribute
-					name="height"
-					type="System.String">
-						200
-					</attribute>
-					<attribute
-					name="hspace"
-					type="System.String">
-						0
-					</attribute>
-					<attribute
-					name="src"
-					type="System.String">
-						http://bioptron-gdansk.pl/wp-content/uploads/2018/02/2-34287b03.jpg
-					</attribute>
-					<attribute
-					name="vspace"
-					type="System.String">
-						0
-					</attribute>
-					<attribute
-					name="width"
-					type="System.String">
-						190
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="sizes"
-					readonly="False"
-					type="System.String">
-						100vw
-					</dynamicattribute>
-				</element>
-				<path>
-					/dom[@domain='bioptron-gdansk.pl']/body/div[1]/div/div/section[3]/div/div/div[2]//figure/a[@href&gt;'http://bioptron-gdansk.pl']/img[@alt='']
-				</path>
-			</info>
-			<matchname>
-			</matchname>
-			<matchvalue>
-			</matchvalue>
-		</validationitem>
-		<validationitem
 		action="AttributeEqual"
 		duration="100ms"
 		enabled="True"
@@ -1729,6 +1628,1059 @@ ACiiigAooooAKKKKACiiigAooooA/9k=
 				http://bioptron-gdansk.pl/?page_id=22
 			</matchvalue>
 		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		screenshotguid="886409b1-db4d-47fc-8f13-63a70ebe86da"
+		screenshotname="Screenshot1"
+		searchpropertyid="bd9e498c-bd09-4e13-bea6-ecf81dfc3f57">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bf504ba0-9681-415b-8c1c-e687877d5dd7"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="2916,262,117,55"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						elementor-item
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Sklep
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						elementor-item
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://allegro.pl/uzytkownik/vdro?order=m
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='bioptron-gdansk.pl']/body/div[1]/div/div/section[2]/div/div/div/div/div/div/div/nav[1]/ul/li[5]/a[@innertext='Sklep']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="0fece351-db8b-42fa-8dcd-1ae6cf32344c">
+				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
+			</helperscreenshot>
+			<matchname>
+				Enabled
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		screenshotguid="886409b1-db4d-47fc-8f13-63a70ebe86da"
+		screenshotname="Screenshot1"
+		searchpropertyid="4015e35a-9602-4634-af02-968f17e74dbd">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bf504ba0-9681-415b-8c1c-e687877d5dd7"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="2916,262,117,55"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						elementor-item
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Sklep
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						elementor-item
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://allegro.pl/uzytkownik/vdro?order=m
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='bioptron-gdansk.pl']/body/div[1]/div/div/section[2]/div/div/div/div/div/div/div/nav[1]/ul/li[5]/a[@innertext='Sklep']
+				</path>
+			</info>
+			<matchname>
+				Valid
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		screenshotguid="886409b1-db4d-47fc-8f13-63a70ebe86da"
+		screenshotname="Screenshot1"
+		searchpropertyid="abe05d92-4b65-407c-abc3-c0b610725efa">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bf504ba0-9681-415b-8c1c-e687877d5dd7"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="2916,262,117,55"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						elementor-item
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Sklep
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						elementor-item
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://allegro.pl/uzytkownik/vdro?order=m
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='bioptron-gdansk.pl']/body/div[1]/div/div/section[2]/div/div/div/div/div/div/div/nav[1]/ul/li[5]/a[@innertext='Sklep']
+				</path>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		screenshotguid="886409b1-db4d-47fc-8f13-63a70ebe86da"
+		screenshotname="Screenshot1"
+		searchpropertyid="a7227c5d-ec06-4223-9f5a-c0acc3d0a548">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bf504ba0-9681-415b-8c1c-e687877d5dd7"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="2916,262,117,55"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						elementor-item
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Sklep
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						elementor-item
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://allegro.pl/uzytkownik/vdro?order=m
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='bioptron-gdansk.pl']/body/div[1]/div/div/section[2]/div/div/div/div/div/div/div/nav[1]/ul/li[5]/a[@innertext='Sklep']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Sklep
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		screenshotguid="886409b1-db4d-47fc-8f13-63a70ebe86da"
+		screenshotname="Screenshot1"
+		searchpropertyid="1ce74ce8-dd74-484a-a8bf-e2b3f0e53fa4">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bf504ba0-9681-415b-8c1c-e687877d5dd7"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="2916,262,117,55"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						elementor-item
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Sklep
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						elementor-item
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://allegro.pl/uzytkownik/vdro?order=m
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='bioptron-gdansk.pl']/body/div[1]/div/div/section[2]/div/div/div/div/div/div/div/nav[1]/ul/li[5]/a[@innertext='Sklep']
+				</path>
+			</info>
+			<matchname>
+				SafeClass
+			</matchname>
+			<matchvalue>
+				elementor-item
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		screenshotguid="886409b1-db4d-47fc-8f13-63a70ebe86da"
+		screenshotname="Screenshot1"
+		searchpropertyid="563954c5-b7a7-48ea-a248-7b33d2dcf346">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bf504ba0-9681-415b-8c1c-e687877d5dd7"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="2916,262,117,55"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						elementor-item
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Sklep
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						elementor-item
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://allegro.pl/uzytkownik/vdro?order=m
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='bioptron-gdansk.pl']/body/div[1]/div/div/section[2]/div/div/div/div/div/div/div/nav[1]/ul/li[5]/a[@innertext='Sklep']
+				</path>
+			</info>
+			<matchname>
+				Href
+			</matchname>
+			<matchvalue>
+				https://allegro.pl/uzytkownik/vdro?order=m
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="ContainsImage"
+		codegenpropertyname="Sklep_Screenshot1"
+		duration="100ms"
+		enabled="True"
+		imagerect="0,0,98,46"
+		optional="False"
+		screenshotguid="886409b1-db4d-47fc-8f13-63a70ebe86da"
+		screenshotname="Screenshot1"
+		searchpropertyid="9379acd8-dce7-4f5d-97a0-159d2d7b0c8f">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bf504ba0-9681-415b-8c1c-e687877d5dd7"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="2916,262,117,55"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						elementor-item
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Sklep
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						elementor-item
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://allegro.pl/uzytkownik/vdro?order=m
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='bioptron-gdansk.pl']/body/div[1]/div/div/section[2]/div/div/div/div/div/div/div/nav[1]/ul/li[5]/a[@innertext='Sklep']
+				</path>
+			</info>
+			<matchname>
+			</matchname>
+			<matchvalue>
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="7e874b5f-b7e0-4f42-ab7e-e7b96251aeb5">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="253fb843-4543-4ec6-9217-04453972fee3"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, h2tag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="h2tag"
+				rect="2222,862,780,78"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						elementor-heading-title elementor-size-default
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Um&#243;w si&#281; na bezp&#322;atne konsultacje!
+ Zapraszamy i Informujemy o mo&#380;liwo&#347;ci skorzystania 
+z 5 bezp&#322;atnych na&#347;wietle&#324;
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						elementor-heading-title elementor-size-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						h2
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='bioptron-gdansk.pl']/body/div[1]/div/div/section[5]/div/div/div/div/div/div[1]/?/?/h2[@innertext&gt;'Um&#243;w si&#281; na bezp&#322;atne konsultacje!']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="5c046518-7ae1-497d-b838-b7a493236066">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAEbAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDc2P8A
+32/OjY/99vzqfFGKAINj/wB9vzo2P/fb86nxRigCDY/99vzo2P8A32/Op8UYoAg2P/fb86Nj/wB9
+vzqfFGKAINj/AN9vzo2P/fb86nxRigCDY/8Afb86Nj/32/Op8UYoAg2P/fb86Nj/AN9vzqfFGKAI
+Nj/32/OjY/8Afb86nxRigCDY/wDfb86Nj/32/Op8UYoAg2P/AH2/OjY/99vzqfFGKAINj/32/OjY
+/wDfb86nxRigCDY/99vzo2P/AH2/Op8UYoAg2P8A32/OjY/99vzqfFGKAINj/wB9vzo2P/fb86nx
+RigCDY/99vzo2P8A32/Op8UYoAg2P/fb86Nj/wB9vzqfFGKAINj/AN9vzo2P/fb86nxRigCDY/8A
+fb86Nj/32/Op8UYoAg2P/fb86Nj/AN9vzqfFGKAINj/32/OjY/8Afb86nxRigCDY/wDfb86Nj/32
+/Op8UYoAg2P/AH2/OjY/99vzqfFGKAINj/32/OjY/wDfb86nxRigCDY/99vzo2P/AH2/Op8UYoAg
+2P8A32/OjY/99vzqfFGKAINj/wB9vzo2P/fb86nxRigCDY/99vzo2P8A32/Op8UYoAg2P/fb86Nj
+/wB9vzqfFGKAINj/AN9vzo2P/fb86nxRigCDY/8Afb86Nj/32/Op8UYoAg2P/fb86Nj/AN9vzqfF
+GKAINj/32/Oip8UUALRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA3f7Ub/amUUAP3+1G/2plF
+AD9/tRv9qZRQA/f7Ub/amUUAP3+1G/2plFAD9/tRv9qZRQA/f7Ub/amUUAP3+1G/2plFAD9/tRv9
+qZRQA/f7Ub/amUUAP3+1G/2plFAD9/tRv9qZRQA/f7Ub/amUUAP3+1G/2plFAD9/tRv9qZRQA/f7
+Ub/amUUAP3+1G/2plFAD9/tRv9qZRQA/f7Ub/amUUAP3+1G/2plFAD9/tRv9qZRQA/f7Ub/amUUA
+P3+1G/2plFAD9/tRv9qZRQA/f7Ub/amUUAP3+1G/2plFAD9/tRv9qZRQA/f7Ub/amUUAP3+1G/2p
+lFAD9/tRv9qZRQA/f7Ub/amUUAP3+1FMooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAM7zt
+V/59ovz/APsqPO1X/n2i/P8A+yrRoqeXzI5fMzvO1X/n2i/P/wCyo87Vf+faL8//ALKtGijl8w5f
+MzvO1X/n2i/P/wCyo87Vf+faL8//ALKnaNI8trIZHZyJnALHPGaNdkeLS5HidkYFcMpweooUfMOX
+zG+dqv8Az7Rfn/8AZUedqv8Az7Rfn/8AZVce5iikSORwruCRn0HXmooNSs7iYww3Cs/pzz9PWjl8
+w5fMg87Vf+faL8//ALKjztV/59ovz/8AsqnGp2RuPIFwhkzjHbPpnpU800cEZkmdUQdSTRy+Ycnm
+UfO1X/n2i/P/AOyo87Vf+faL8/8A7KnafeWs0svl3nnSO2dpyMD0ANW4545ZJI0bLRnDjBGKOXzD
+l8yl52q/8+0X5/8A2VHnar/z7Rfn/wDZVbF5AyowfId9i/KclvTH4U4zxrcLAW/eMpYLg9KOXzDl
+8yl52q/8+0X5/wD2VHnar/z7Rfn/APZVoO6xoXkYKqjJJOAKqwapY3EvlxXCl+gByM/TPWjl8w5f
+Mh87Vf8An2i/P/7KjztV/wCfaL8//sqmBH9rkfaW3eT/AKjBx1+9np7U661C0tGC3E6ox7ck/kKO
+XzDk8yv52q/8+0X5/wD2VHnar/z7Rfn/APZVdgniuIxJDIrqe4NOlkSGJpJDhEGWOOgo5fMOXzKH
+nar/AM+0X5//AGVHnar/AM+0X5//AGVTTapZQBTLcKu8AgYJOD7dqsCaIw+d5i+XjO/PGKOXzDl8
+yj52q/8APtF+f/2VHnar/wA+0X5//ZVLFqtjNN5UdyhcnAHIz+NXKOXzDl8zO87Vf+faL8//ALKj
+ztV/59ovz/8AsqJJzHru15SsIttxBbCg7utT22pWd1IY4J1Zx25GfpnrRy+YcnmQedqv/PtF+f8A
+9lR52q/8+0X5/wD2VXZ54rePzJ5FRfUmorXULS8JW3mV2HbkH8jRy+YcvmV/O1X/AJ9ovz/+yo87
+Vf8An2i/P/7KpJ9XsbeZopZ9rrwRsY4/Sn2+pWl0shgl3CMZb5SMD8RRy+YcnmQedqv/AD7Rfn/9
+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
+AAMARkAfnQEUknfewamwLQQucI7Zc+wpft4VcpazGIDhgvGKZqSKbq1aQfu92D+laFCBtKK0IbUw
+PEXtwNrHJx61NVCxwL67Ef8Aq8jp0zTjbXueLz/xymnoJxV9ya5tzOVImkjx/cOM1VuLXyIHka7u
+MKP7/Wr0KukSrI+9h1bHWqV2ftd7Har9xPmk/wA/560mhwbvboPsEnWyLly8rjKhySB6UgsriRd0
+t5IrnshwBV1iqISSAqjn2FURNcX2fI/cw9N5+8fpQwTbbew7Tp5XMsMx3NE2N3rVqeZIImkc4A/W
+m28EdrEVXgdWY96rRA31x5zD9xGfkB/iPrT8hOzbfQTTpppbmfzsjGCF/u1fqla/8hK7/wCA1doW
+wqnxBRRRTICiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACoLu4a2CP5ZaPPzkdVqeigaaT1Kj6narHuV957KAcmo7NZ
+baxklMZaRiX2CriwxK25Y0DeoUZp9KxXMkrJFRNTtWTLOVPdSDkVHYZmu57oKVjfhc96utFGzbmj
+Qn1KinUWDmSTSRnTf6ZqKwjmKHlvc/5/rWjRRQkKUr2CmTRLNE0b52t1xT6KZOxS/sm19H/76qvp
+lrGZ5X5zFJhea1aKVlc09pKzTZSOlWxJJD5P+1VR7GEamkADbCmTz9a2KKXKgVWS6kctvHNB5LjK
+449RVX7FchfLF63l/wC7z+dXqKdiVNojt7eO2iEcY47k9TUlFFMTd9WR3MwggeVv4RwPU1X0yFlh
+M0n+slO4/SrlFK2tx83u2IrqEz27RBtm7vjNVUsLhECpesFHQBP/AK9X6KLAptKyK0VrIFdZ7hpV
+dcYxjFR/2Ta+j/8AfVXaKLIfPLozIsrOI38ykHETArzWvRRQlZWCc3J3YUUUUyAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAMK/0ywjKW1tbZuZfu/OxCju
+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
+KwH/2Q==
+			</helperscreenshot>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Um&#243;w si&#281; na bezp&#322;atne konsultacje!
+ Zapraszamy i Informujemy o mo&#380;liwo&#347;ci skorzystania 
+z 5 bezp&#322;atnych na&#347;wietle&#324;
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="ff23ffc2-f484-4184-bd01-5cc4019dacd5">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="253fb843-4543-4ec6-9217-04453972fee3"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, h2tag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="h2tag"
+				rect="2222,862,780,78"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						elementor-heading-title elementor-size-default
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Um&#243;w si&#281; na bezp&#322;atne konsultacje!
+ Zapraszamy i Informujemy o mo&#380;liwo&#347;ci skorzystania 
+z 5 bezp&#322;atnych na&#347;wietle&#324;
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						elementor-heading-title elementor-size-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						h2
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='bioptron-gdansk.pl']/body/div[1]/div/div/section[5]/div/div/div/div/div/div[1]/?/?/h2[@innertext&gt;'Um&#243;w si&#281; na bezp&#322;atne konsultacje!']
+				</path>
+			</info>
+			<matchname>
+				SafeClass
+			</matchname>
+			<matchvalue>
+				elementor-heading-title elementor-size-default
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		action="Snapshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="42ccecc3-7ef7-4a59-8c9c-9aa4436d7aa4">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="612f79ea-e552-47a8-a9e8-391119e1da7e"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='bioptron-gdansk.pl']
+				</path>
+			</info>
+		</loggingrecorditem>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="100ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="36b1431a-eb15-4b01-b735-a7e5e8f3a801">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="612f79ea-e552-47a8-a9e8-391119e1da7e"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='bioptron-gdansk.pl']
+				</path>
+			</info>
+		</closeapprecorditem>
 	</recorditems>
 	<repository
 	id="b34ca9bb-6d54-489c-b2ac-fe86fc90194c"

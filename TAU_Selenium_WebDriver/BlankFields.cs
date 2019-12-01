@@ -138,8 +138,8 @@ namespace TAU_Selenium_WebDriver
             Validate.AttributeEqual(repo.INKUBITMicrosoftDynamics365CRMCon.MessageErrorInfo, "InnerText", "Required Field");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Application", "Killing application containing item 'INKUBITMicrosoftDynamics365CRMCon'.", repo.INKUBITMicrosoftDynamics365CRMCon.SelfInfo, new RecordItemIndex(15));
-            Host.Current.KillApplication(repo.INKUBITMicrosoftDynamics365CRMCon.Self);
+            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'INKUBITMicrosoftDynamics365CRMCon'.", repo.INKUBITMicrosoftDynamics365CRMCon.SelfInfo, new RecordItemIndex(15));
+            Host.Current.CloseApplication(repo.INKUBITMicrosoftDynamics365CRMCon.Self, 100);
             Delay.Milliseconds(0);
             
         }

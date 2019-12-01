@@ -260,8 +260,16 @@ namespace TAU_Selenium_WebDriver
             RepoItemInfo _somespantagInfo;
             RepoItemInfo _animatedelementorelementelementoreleInfo;
             RepoItemInfo _httpbioptrongdanskplwpcontentuplInfo;
-            HttpBioptronGdanskPlWpContentUpl1InfoClass _httpbioptrongdanskplwpcontentupl1Info;
+            RepoItemInfo _httpbioptrongdanskplwpcontentupl1Info;
             RepoItemInfo _bioptronmedolightInfo;
+            RepoItemInfo _produktyInfo;
+            RepoItemInfo _subarrowInfo;
+            RepoItemInfo _zaletyproduktuInfo;
+            RepoItemInfo _informacjeInfo;
+            RepoItemInfo _elementorelementelementorelement5220Info;
+            RepoItemInfo _informacje1Info;
+            SklepInfoClass _sklepInfo;
+            RepoItemInfo _umowsięnabezpłatnekonsultacjezapraInfo;
 
             /// <summary>
             /// Creates a new ElementorSectionWrap  folder.
@@ -279,8 +287,16 @@ namespace TAU_Selenium_WebDriver
                 _somespantagInfo = new RepoItemInfo(this, "SomeSpanTag", "section[9]/div/div/div[2]//form[@name='New Form']/div/div[5]/button/span", 30000, null, "e33a7dce-3ea0-4eec-892d-60bd7b6ed54c");
                 _animatedelementorelementelementoreleInfo = new RepoItemInfo(this, "AnimatedElementorElementElementorEle", "section[3]", 30000, null, "5a0ed0f1-6f20-405f-b452-a64910e8e452");
                 _httpbioptrongdanskplwpcontentuplInfo = new RepoItemInfo(this, "HttpBioptronGdanskPlWpContentUpl", "section[3]/div/div/div[1]//figure/a[@href>'http://bioptron-gdansk.pl']/img[@alt='']", 30000, null, "0b0b5774-ca06-4408-adf2-bd080513c1e7");
-                _httpbioptrongdanskplwpcontentupl1Info = new HttpBioptronGdanskPlWpContentUpl1InfoClass(this);
+                _httpbioptrongdanskplwpcontentupl1Info = new RepoItemInfo(this, "HttpBioptronGdanskPlWpContentUpl1", "section[3]/div/div/div[2]//figure/a[@href>'http://bioptron-gdansk.pl']/img[@alt='']", 30000, null, "152f0261-7f72-4821-8e57-637b81bd7d1a");
                 _bioptronmedolightInfo = new RepoItemInfo(this, "BioptronMedoLight", "section[3]//header/div/div/div/div/div/div/h1/a[@innertext='Bioptron MedoLight']", 30000, null, "5e9a0c18-1330-45a7-be65-76f36d8f87e4");
+                _produktyInfo = new RepoItemInfo(this, "Produkty", "section[2]/div/div/div/div/div/div/div/nav[1]/ul/li[2]/a[@innertext='Produkty']", 30000, null, "437533ed-e213-47da-98a6-362d0b9f7197");
+                _subarrowInfo = new RepoItemInfo(this, "SubArrow", "section[2]/div/div/div/div/div/div/div/nav[1]/ul/li[3]/a[@innertext='Informacje']/span", 30000, null, "b6370164-51d5-47b7-acbc-36e3f4ce1f5d");
+                _zaletyproduktuInfo = new RepoItemInfo(this, "ZaletyProduktu", "section[2]/div/div/div/div/div/div/div/nav[1]/ul/li[3]/ul/li[2]/a[@innertext='Zalety produktu']", 30000, null, "72d49d2a-b74f-418d-ae73-6f930d8e3515");
+                _informacjeInfo = new RepoItemInfo(this, "Informacje", "section[2]/div/div/div/div/div/div/div/nav[1]/ul/li[3]/a[@innertext='Informacje' and @id='sm-15752063214742332-3']", 30000, null, "858140ed-f2bc-43ba-b618-756531743d40");
+                _elementorelementelementorelement5220Info = new RepoItemInfo(this, "ElementorElementElementorElement5220", "section[2]", 30000, null, "0ef1ead5-8b37-40c4-98e7-8cf8acf3d9ca");
+                _informacje1Info = new RepoItemInfo(this, "Informacje1", "section[2]/div/div/div/div/div/div/div/nav[1]/ul/li[3]/a[@id~'sm-15752071581948208-3']", 30000, null, "b2212cb8-f25a-492c-ba7d-820d25149a19");
+                _sklepInfo = new SklepInfoClass(this);
+                _umowsięnabezpłatnekonsultacjezapraInfo = new RepoItemInfo(this, "UmowSięNaBezpłatneKonsultacjeZapra", "section[5]/div/div/div/div/div/div[1]/?/?/h2[@innertext>'Umów się na bezpłatne konsultacje!']", 30000, null, "253fb843-4543-4ec6-9217-04453972fee3");
             }
 
             /// <summary>
@@ -340,26 +356,26 @@ namespace TAU_Selenium_WebDriver
             }
 
             /// <summary>
-            /// The HttpBioptronGdanskPlWpContentUpl1InfoClass folder.
+            /// The SklepInfoClass folder.
             /// </summary>
-            [RepositoryItemInfo("152f0261-7f72-4821-8e57-637b81bd7d1a")]
-            public class HttpBioptronGdanskPlWpContentUpl1InfoClass : RepoItemInfo
+            [RepositoryItemInfo("bf504ba0-9681-415b-8c1c-e687877d5dd7")]
+            public class SklepInfoClass : RepoItemInfo
             {
                 /// <summary>
-                /// HttpBioptronGdanskPlWpContentUpl1InfoClass class constructor.
+                /// SklepInfoClass class constructor.
                 /// </summary>
-                public HttpBioptronGdanskPlWpContentUpl1InfoClass(RepoGenBaseFolder parentFolder)
-                    : base(parentFolder, "HttpBioptronGdanskPlWpContentUpl1", "section[3]/div/div/div[2]//figure/a[@href>'http://bioptron-gdansk.pl']/img[@alt='']", 30000, null, "152f0261-7f72-4821-8e57-637b81bd7d1a")
+                public SklepInfoClass(RepoGenBaseFolder parentFolder)
+                    : base(parentFolder, "Sklep", "section[2]/div/div/div/div/div/div/div/nav[1]/ul/li[5]/a[@innertext='Sklep']", 30000, null, "bf504ba0-9681-415b-8c1c-e687877d5dd7")
                 { }
 
                 /// <summary>
                 /// Gets the Screenshot1 item image.
                 /// </summary>
                 /// <returns>The Screenshot1 image.</returns>
-                [RepositoryImage("2ae57a75-ec2d-421f-8a2c-c402b1e2ab88")]
+                [RepositoryImage("886409b1-db4d-47fc-8f13-63a70ebe86da")]
                 public CompressedImage GetScreenshot1()
                 {
-                    return GetImage("2ae57a75-ec2d-421f-8a2c-c402b1e2ab88");
+                    return GetImage("886409b1-db4d-47fc-8f13-63a70ebe86da");
                 }
 
                 /// <summary>
@@ -367,10 +383,10 @@ namespace TAU_Selenium_WebDriver
                 /// </summary>
                 /// <param name="cropRect">The bounds of the sub-image to return.</param>
                 /// <returns>The cropped image.</returns>
-                [RepositoryImage("2ae57a75-ec2d-421f-8a2c-c402b1e2ab88")]
+                [RepositoryImage("886409b1-db4d-47fc-8f13-63a70ebe86da")]
                 public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
                 {
-                    return GetImage("2ae57a75-ec2d-421f-8a2c-c402b1e2ab88", cropRect);
+                    return GetImage("886409b1-db4d-47fc-8f13-63a70ebe86da", cropRect);
                 }
             }
 
@@ -654,7 +670,7 @@ namespace TAU_Selenium_WebDriver
             /// The HttpBioptronGdanskPlWpContentUpl1 item info.
             /// </summary>
             [RepositoryItemInfo("152f0261-7f72-4821-8e57-637b81bd7d1a")]
-            public virtual HttpBioptronGdanskPlWpContentUpl1InfoClass HttpBioptronGdanskPlWpContentUpl1Info
+            public virtual RepoItemInfo HttpBioptronGdanskPlWpContentUpl1Info
             {
                 get
                 {
@@ -683,6 +699,198 @@ namespace TAU_Selenium_WebDriver
                 get
                 {
                     return _bioptronmedolightInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Produkty item.
+            /// </summary>
+            [RepositoryItem("437533ed-e213-47da-98a6-362d0b9f7197")]
+            public virtual Ranorex.ATag Produkty
+            {
+                get
+                {
+                    return _produktyInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Produkty item info.
+            /// </summary>
+            [RepositoryItemInfo("437533ed-e213-47da-98a6-362d0b9f7197")]
+            public virtual RepoItemInfo ProduktyInfo
+            {
+                get
+                {
+                    return _produktyInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SubArrow item.
+            /// </summary>
+            [RepositoryItem("b6370164-51d5-47b7-acbc-36e3f4ce1f5d")]
+            public virtual Ranorex.SpanTag SubArrow
+            {
+                get
+                {
+                    return _subarrowInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SubArrow item info.
+            /// </summary>
+            [RepositoryItemInfo("b6370164-51d5-47b7-acbc-36e3f4ce1f5d")]
+            public virtual RepoItemInfo SubArrowInfo
+            {
+                get
+                {
+                    return _subarrowInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ZaletyProduktu item.
+            /// </summary>
+            [RepositoryItem("72d49d2a-b74f-418d-ae73-6f930d8e3515")]
+            public virtual Ranorex.ATag ZaletyProduktu
+            {
+                get
+                {
+                    return _zaletyproduktuInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ZaletyProduktu item info.
+            /// </summary>
+            [RepositoryItemInfo("72d49d2a-b74f-418d-ae73-6f930d8e3515")]
+            public virtual RepoItemInfo ZaletyProduktuInfo
+            {
+                get
+                {
+                    return _zaletyproduktuInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Informacje item.
+            /// </summary>
+            [RepositoryItem("858140ed-f2bc-43ba-b618-756531743d40")]
+            public virtual Ranorex.ATag Informacje
+            {
+                get
+                {
+                    return _informacjeInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Informacje item info.
+            /// </summary>
+            [RepositoryItemInfo("858140ed-f2bc-43ba-b618-756531743d40")]
+            public virtual RepoItemInfo InformacjeInfo
+            {
+                get
+                {
+                    return _informacjeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ElementorElementElementorElement5220 item.
+            /// </summary>
+            [RepositoryItem("0ef1ead5-8b37-40c4-98e7-8cf8acf3d9ca")]
+            public virtual Ranorex.SectionTag ElementorElementElementorElement5220
+            {
+                get
+                {
+                    return _elementorelementelementorelement5220Info.CreateAdapter<Ranorex.SectionTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ElementorElementElementorElement5220 item info.
+            /// </summary>
+            [RepositoryItemInfo("0ef1ead5-8b37-40c4-98e7-8cf8acf3d9ca")]
+            public virtual RepoItemInfo ElementorElementElementorElement5220Info
+            {
+                get
+                {
+                    return _elementorelementelementorelement5220Info;
+                }
+            }
+
+            /// <summary>
+            /// The Informacje1 item.
+            /// </summary>
+            [RepositoryItem("b2212cb8-f25a-492c-ba7d-820d25149a19")]
+            public virtual Ranorex.ATag Informacje1
+            {
+                get
+                {
+                    return _informacje1Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Informacje1 item info.
+            /// </summary>
+            [RepositoryItemInfo("b2212cb8-f25a-492c-ba7d-820d25149a19")]
+            public virtual RepoItemInfo Informacje1Info
+            {
+                get
+                {
+                    return _informacje1Info;
+                }
+            }
+
+            /// <summary>
+            /// The Sklep item.
+            /// </summary>
+            [RepositoryItem("bf504ba0-9681-415b-8c1c-e687877d5dd7")]
+            public virtual Ranorex.ATag Sklep
+            {
+                get
+                {
+                    return _sklepInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Sklep item info.
+            /// </summary>
+            [RepositoryItemInfo("bf504ba0-9681-415b-8c1c-e687877d5dd7")]
+            public virtual SklepInfoClass SklepInfo
+            {
+                get
+                {
+                    return _sklepInfo;
+                }
+            }
+
+            /// <summary>
+            /// The UmowSięNaBezpłatneKonsultacjeZapra item.
+            /// </summary>
+            [RepositoryItem("253fb843-4543-4ec6-9217-04453972fee3")]
+            public virtual Ranorex.H2Tag UmowSięNaBezpłatneKonsultacjeZapra
+            {
+                get
+                {
+                    return _umowsięnabezpłatnekonsultacjezapraInfo.CreateAdapter<Ranorex.H2Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The UmowSięNaBezpłatneKonsultacjeZapra item info.
+            /// </summary>
+            [RepositoryItemInfo("253fb843-4543-4ec6-9217-04453972fee3")]
+            public virtual RepoItemInfo UmowSięNaBezpłatneKonsultacjeZapraInfo
+            {
+                get
+                {
+                    return _umowsięnabezpłatnekonsultacjezapraInfo;
                 }
             }
         }

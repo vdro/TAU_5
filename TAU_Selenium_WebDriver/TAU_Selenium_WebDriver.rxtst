@@ -33,10 +33,24 @@
 			name="WebsiteValidationAndFunctions"
 			ref="b226d0e2-7b1a-424d-9580-d9f642d01204"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="NewVariable"
+					datasourceid="3faac712-2710-47e8-9a45-f4fd4aa3064e"
+					variableid="884edca0-9471-4ec5-bbc8-523b4134f773"
+					variablename="NewVariable">
+					</var>
+				</databinding>
 			</testmodule>
 			<testcase
 			id="3faac712-2710-47e8-9a45-f4fd4aa3064e"
 			name="TestCase_for_WebsiteValidation">
+				<parameters>
+					<param
+					name="NewVariable"
+					value="">
+					</param>
+				</parameters>
 			</testcase>
 			<testmodule
 			id="64f35d0b-2b72-49d5-b134-a59a41e1880e"

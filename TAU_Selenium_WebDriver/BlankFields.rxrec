@@ -2473,7 +2473,7 @@ oooAKKKKACiiigAooooAKKKKAP/Z
 		<closeapprecorditem
 		enabled="True"
 		graceperiod="100ms"
-		method="KillProcess"
+		method="CloseWindow"
 		optional="False"
 		searchpropertyid="061dc6b2-42ec-47a5-ac4f-ebdc38341f43">
 			<comment>
