@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="TAU_Selenium_WebDriver"
+      id="9558c9bb-fcdd-43df-959c-4ebaa2b4d8b5"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="TAU_Selenium_WebDriver"
+      id="9558c9bb-fcdd-43df-959c-4ebaa2b4d8b5"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
