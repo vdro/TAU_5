@@ -3,25 +3,47 @@
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
-			id="175ae0b1-1b67-47b4-adde-62b28e6aa67f"
-			name="OpenBrowser"
-			ref="69d23dfb-91e4-4d8a-adc0-a7378b4f57b9"
+			id="0b2eb71c-ed93-42f9-bb2a-81fc9a6c0c95"
+			name="FormFieldValidation"
+			ref="0da12db1-debc-4381-a35d-a61e132707c6"
 			type="Recording">
 			</testmodule>
+			<testcase
+			id="13ca27d1-e138-41e2-b601-11d80abbdbf9"
+			name="TestCase_for_FieldFormValidation">
+				<description>
+					<![CDATA[Happy Path]]>
+				</description>
+			</testcase>
 			<testmodule
-			id="3841739a-e376-4557-86db-5111321457e0"
-			name="CloseBrowser"
-			ref="5e1e0eb3-c91f-437a-bb83-bb2f1531b254"
+			id="1d59ccb2-9585-4fc9-89d9-7de7185de68d"
+			name="BlankFields"
+			ref="dc1972ac-8c02-45f4-9682-b9fb7055c229"
 			type="Recording">
 			</testmodule>
-			<teardown
-			id="4211c39f-f6f1-4748-af88-5d1c016d2119"
-			name="teardown">
-			</teardown>
-			<setup
-			id="7b2f6280-42ba-4771-a932-06c81ebfa598"
-			name="setup">
-			</setup>
+			<testcase
+			id="213b5ba3-02e9-4496-8fe3-1367dfba988e"
+			name="TestCase_for_FieldFormValidation-WarningNotifications">
+				<description>
+					<![CDATA[Wrong EmailAddress + Blank fields]]>
+				</description>
+			</testcase>
+			<testmodule
+			id="315e6d40-cd84-46ad-aaf8-d369ce8d7dc7"
+			name="WebsiteValidationAndFunctions"
+			ref="b226d0e2-7b1a-424d-9580-d9f642d01204"
+			type="Recording">
+			</testmodule>
+			<testcase
+			id="3faac712-2710-47e8-9a45-f4fd4aa3064e"
+			name="TestCase_for_WebsiteValidation">
+			</testcase>
+			<testmodule
+			id="64f35d0b-2b72-49d5-b134-a59a41e1880e"
+			name="WrongEmail"
+			ref="467a4d20-c0bc-4ae8-b5b0-d790c7fd02c7"
+			type="Recording">
+			</testmodule>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -42,16 +64,6 @@
 			reportwriteinterval="30000ms">
 			</testsuite>
 			<testcase
-			id="90f5f4e2-3594-4581-80e4-0c0e10553e16"
-			name="TestCase">
-			</testcase>
-			<testmodule
-			id="b93611f3-fe3a-4f47-b031-8826f0b7fb11"
-			name="Recording1"
-			ref="02235ae1-2a3d-489f-a870-bfeb843d04a4"
-			type="Recording">
-			</testmodule>
-			<testcase
 			id="e5917357-213c-434a-8407-2d0f5c8f5856"
 			name="TAU_Selenium_WebDriver"
 			reportlevel="Info;20">
@@ -65,28 +77,32 @@
 				id="e5917357-213c-434a-8407-2d0f5c8f5856"
 				name="TAU_Selenium_WebDriver">
 					<testcase
-					id="90f5f4e2-3594-4581-80e4-0c0e10553e16"
-					name="TestCase">
-						<setup
-						id="7b2f6280-42ba-4771-a932-06c81ebfa598"
-						name="setup">
-							<testmodule
-							id="175ae0b1-1b67-47b4-adde-62b28e6aa67f"
-							name="OpenBrowser">
-							</testmodule>
-						</setup>
+					id="13ca27d1-e138-41e2-b601-11d80abbdbf9"
+					name="TestCase_for_FieldFormValidation">
 						<testmodule
-						id="b93611f3-fe3a-4f47-b031-8826f0b7fb11"
-						name="Recording1">
+						id="0b2eb71c-ed93-42f9-bb2a-81fc9a6c0c95"
+						name="FormFieldValidation">
 						</testmodule>
-						<teardown
-						id="4211c39f-f6f1-4748-af88-5d1c016d2119"
-						name="teardown">
-							<testmodule
-							id="3841739a-e376-4557-86db-5111321457e0"
-							name="CloseBrowser">
-							</testmodule>
-						</teardown>
+					</testcase>
+					<testcase
+					id="213b5ba3-02e9-4496-8fe3-1367dfba988e"
+					name="TestCase_for_FieldFormValidation-WarningNotifications">
+						<testmodule
+						id="64f35d0b-2b72-49d5-b134-a59a41e1880e"
+						name="WrongEmail">
+						</testmodule>
+						<testmodule
+						id="1d59ccb2-9585-4fc9-89d9-7de7185de68d"
+						name="BlankFields">
+						</testmodule>
+					</testcase>
+					<testcase
+					id="3faac712-2710-47e8-9a45-f4fd4aa3064e"
+					name="TestCase_for_WebsiteValidation">
+						<testmodule
+						id="315e6d40-cd84-46ad-aaf8-d369ce8d7dc7"
+						name="WebsiteValidationAndFunctions">
+						</testmodule>
 					</testcase>
 				</testcase>
 			</testsuite>
@@ -99,7 +115,13 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="90f5f4e2-3594-4581-80e4-0c0e10553e16">
+			id="13ca27d1-e138-41e2-b601-11d80abbdbf9">
+			</testcontainer>
+			<testcontainer
+			id="213b5ba3-02e9-4496-8fe3-1367dfba988e">
+			</testcontainer>
+			<testcontainer
+			id="3faac712-2710-47e8-9a45-f4fd4aa3064e">
 			</testcontainer>
 			<testcontainer
 			id="e5917357-213c-434a-8407-2d0f5c8f5856">

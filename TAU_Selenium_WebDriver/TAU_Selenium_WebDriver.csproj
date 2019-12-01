@@ -139,6 +139,18 @@
     <Compile Include="AssemblyInfo.cs">
       <id>3ad37b03-c65c-4b8b-92e8-af7c6b2104fb</id>
     </Compile>
+    <Compile Include="BlankFields.cs">
+      <BoundTo>3bc5f8d8-4cad-43de-ac97-3037785128c0</BoundTo>
+      <DependentUpon>BlankFields.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b6198f97-4a48-4031-adf4-3e1a66c8447a</id>
+    </Compile>
+    <Compile Include="BlankFields.UserCode.cs">
+      <BoundTo>3bc5f8d8-4cad-43de-ac97-3037785128c0</BoundTo>
+      <DependentUpon>BlankFields.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a4eb0bd5-99af-4175-809c-048e9c63a6bd</id>
+    </Compile>
     <Compile Include="CloseBrowser.cs">
       <BoundTo>b478d927-2660-4d54-a097-14154fb86171</BoundTo>
       <DependentUpon>CloseBrowser.rxrec</DependentUpon>
@@ -150,6 +162,30 @@
       <DependentUpon>CloseBrowser.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>554c99dd-a382-40bc-9567-548508c55740</id>
+    </Compile>
+    <Compile Include="FormFieldValidation.cs">
+      <BoundTo>9c804f41-d8f9-4679-8873-5ae8537f1f0b</BoundTo>
+      <DependentUpon>FormFieldValidation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>067cee90-ffbd-461b-bc6e-7e110dda5472</id>
+    </Compile>
+    <Compile Include="FormFieldValidation.UserCode.cs">
+      <BoundTo>9c804f41-d8f9-4679-8873-5ae8537f1f0b</BoundTo>
+      <DependentUpon>FormFieldValidation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d8d2aa03-f380-49f8-a46d-6fc10989c63b</id>
+    </Compile>
+    <Compile Include="FormFieldValidationWrongEmail.cs">
+      <BoundTo>553ce59b-26b3-4d1f-8bd3-49cbda094eec</BoundTo>
+      <DependentUpon>FormFieldValidationWrongEmail.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>98c36f02-8b28-4b2d-a1cb-a9a561e9f269</id>
+    </Compile>
+    <Compile Include="FormFieldValidationWrongEmail.UserCode.cs">
+      <BoundTo>553ce59b-26b3-4d1f-8bd3-49cbda094eec</BoundTo>
+      <DependentUpon>FormFieldValidationWrongEmail.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3117eaa4-4e55-4523-9383-054f5465bcbe</id>
     </Compile>
     <Compile Include="OpenBrowser.cs">
       <BoundTo>39b4208b-da24-476c-a46f-bbc20d1db194</BoundTo>
@@ -184,15 +220,66 @@
       <RepositoryCode>true</RepositoryCode>
       <id>d8763f14-d1c1-4d86-9ab6-22de99d24453</id>
     </Compile>
+    <Compile Include="WebsiteValidationAndFunctions.cs">
+      <BoundTo>af882789-ca82-45aa-8f06-d5c847856718</BoundTo>
+      <DependentUpon>WebsiteValidationAndFunctions.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b32b0ed6-8dd3-4973-b47d-0e39f8cddc02</id>
+    </Compile>
+    <Compile Include="WebsiteValidationAndFunctions.UserCode.cs">
+      <BoundTo>af882789-ca82-45aa-8f06-d5c847856718</BoundTo>
+      <DependentUpon>WebsiteValidationAndFunctions.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>67bb79cb-fbb6-4429-88ac-1cc7e664cf91</id>
+    </Compile>
+    <Compile Include="WrongEmail.cs">
+      <BoundTo>b5f06df1-b27a-404a-ab5c-a298b42b9d72</BoundTo>
+      <DependentUpon>WrongEmail.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>90fdffa0-e58d-4f0e-b4cc-e4e374bee695</id>
+    </Compile>
+    <Compile Include="WrongEmail.UserCode.cs">
+      <BoundTo>b5f06df1-b27a-404a-ab5c-a298b42b9d72</BoundTo>
+      <DependentUpon>WrongEmail.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6803f9c6-c0b4-46fd-b4ea-b0980e41aad4</id>
+    </Compile>
+    <Compile Include="WrongFields.cs">
+      <BoundTo>123060f0-169e-40b0-8c44-0d7a46c72f25</BoundTo>
+      <DependentUpon>WrongFields.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9dab8eb1-7308-4f1d-a7f2-d6a5f229feee</id>
+    </Compile>
+    <Compile Include="WrongFields.UserCode.cs">
+      <BoundTo>123060f0-169e-40b0-8c44-0d7a46c72f25</BoundTo>
+      <DependentUpon>WrongFields.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5a36dbc2-93d9-441b-a3ba-a528320ac381</id>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">
       <id>ac241f3b-6b1f-4aac-a2d7-0147e05211fe</id>
     </None>
+    <None Include="BlankFields.rxrec">
+      <BoundTo>73e5243c-de9e-4655-89c4-9c7830fcb30e</BoundTo>
+      <id>3bc5f8d8-4cad-43de-ac97-3037785128c0</id>
+      <recordtableid>dc1972ac-8c02-45f4-9682-b9fb7055c229</recordtableid>
+    </None>
     <None Include="CloseBrowser.rxrec">
       <BoundTo>73e5243c-de9e-4655-89c4-9c7830fcb30e</BoundTo>
       <id>b478d927-2660-4d54-a097-14154fb86171</id>
       <recordtableid>5e1e0eb3-c91f-437a-bb83-bb2f1531b254</recordtableid>
+    </None>
+    <None Include="FormFieldValidation.rxrec">
+      <BoundTo>73e5243c-de9e-4655-89c4-9c7830fcb30e</BoundTo>
+      <id>9c804f41-d8f9-4679-8873-5ae8537f1f0b</id>
+      <recordtableid>0da12db1-debc-4381-a35d-a61e132707c6</recordtableid>
+    </None>
+    <None Include="FormFieldValidationWrongEmail.rxrec">
+      <BoundTo>73e5243c-de9e-4655-89c4-9c7830fcb30e</BoundTo>
+      <id>553ce59b-26b3-4d1f-8bd3-49cbda094eec</id>
+      <recordtableid>3f6bac90-f065-4300-b4c7-fa1a9e0726af</recordtableid>
     </None>
     <None Include="OpenBrowser.rxrec">
       <BoundTo>73e5243c-de9e-4655-89c4-9c7830fcb30e</BoundTo>
@@ -214,6 +301,21 @@
       <id>73e5243c-de9e-4655-89c4-9c7830fcb30e</id>
       <repoid>b34ca9bb-6d54-489c-b2ac-fe86fc90194c</repoid>
       <reporootid>7826df47-3df0-4357-b90e-85b43d1dbcdc</reporootid>
+    </None>
+    <None Include="WebsiteValidationAndFunctions.rxrec">
+      <BoundTo>73e5243c-de9e-4655-89c4-9c7830fcb30e</BoundTo>
+      <id>af882789-ca82-45aa-8f06-d5c847856718</id>
+      <recordtableid>b226d0e2-7b1a-424d-9580-d9f642d01204</recordtableid>
+    </None>
+    <None Include="WrongEmail.rxrec">
+      <id>b5f06df1-b27a-404a-ab5c-a298b42b9d72</id>
+      <recordtableid>467a4d20-c0bc-4ae8-b5b0-d790c7fd02c7</recordtableid>
+      <BoundTo>73e5243c-de9e-4655-89c4-9c7830fcb30e</BoundTo>
+    </None>
+    <None Include="WrongFields.rxrec">
+      <BoundTo>73e5243c-de9e-4655-89c4-9c7830fcb30e</BoundTo>
+      <id>123060f0-169e-40b0-8c44-0d7a46c72f25</id>
+      <recordtableid>08de97c7-1e9f-4eb6-94e3-4a4f227fe1a1</recordtableid>
     </None>
   </ItemGroup>
   <ItemGroup>

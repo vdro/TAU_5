@@ -28,6 +28,8 @@ namespace TAU_Selenium_WebDriver
     {
         static TAU_Selenium_WebDriverRepository instance = new TAU_Selenium_WebDriverRepository();
         TAU_Selenium_WebDriverRepositoryFolders.ApplicationUnderTestAppFolder _applicationundertest;
+        TAU_Selenium_WebDriverRepositoryFolders.BioptronZepterGdanskBioptronZepterAppFolder _bioptronzeptergdanskbioptronzepter;
+        TAU_Selenium_WebDriverRepositoryFolders.INKUBITMicrosoftDynamics365CRMConAppFolder _inkubitmicrosoftdynamics365crmcon;
 
         /// <summary>
         /// Gets the singleton class instance representing the TAU_Selenium_WebDriverRepository element repository.
@@ -45,6 +47,8 @@ namespace TAU_Selenium_WebDriver
             : base("TAU_Selenium_WebDriverRepository", "/", null, 0, false, "7826df47-3df0-4357-b90e-85b43d1dbcdc", ".\\RepositoryImages\\TAU_Selenium_WebDriverRepository7826df47.rximgres")
         {
             _applicationundertest = new TAU_Selenium_WebDriverRepositoryFolders.ApplicationUnderTestAppFolder(this);
+            _bioptronzeptergdanskbioptronzepter = new TAU_Selenium_WebDriverRepositoryFolders.BioptronZepterGdanskBioptronZepterAppFolder(this);
+            _inkubitmicrosoftdynamics365crmcon = new TAU_Selenium_WebDriverRepositoryFolders.INKUBITMicrosoftDynamics365CRMConAppFolder(this);
         }
 
 #region Variables
@@ -70,6 +74,24 @@ namespace TAU_Selenium_WebDriver
         public virtual TAU_Selenium_WebDriverRepositoryFolders.ApplicationUnderTestAppFolder ApplicationUnderTest
         {
             get { return _applicationundertest; }
+        }
+
+        /// <summary>
+        /// The BioptronZepterGdanskBioptronZepter folder.
+        /// </summary>
+        [RepositoryFolder("612f79ea-e552-47a8-a9e8-391119e1da7e")]
+        public virtual TAU_Selenium_WebDriverRepositoryFolders.BioptronZepterGdanskBioptronZepterAppFolder BioptronZepterGdanskBioptronZepter
+        {
+            get { return _bioptronzeptergdanskbioptronzepter; }
+        }
+
+        /// <summary>
+        /// The INKUBITMicrosoftDynamics365CRMCon folder.
+        /// </summary>
+        [RepositoryFolder("2d6537aa-775b-4bab-a32d-40f4e427af7f")]
+        public virtual TAU_Selenium_WebDriverRepositoryFolders.INKUBITMicrosoftDynamics365CRMConAppFolder INKUBITMicrosoftDynamics365CRMCon
+        {
+            get { return _inkubitmicrosoftdynamics365crmcon; }
         }
     }
 
@@ -115,6 +137,903 @@ namespace TAU_Selenium_WebDriver
                 get
                 {
                     return _selfInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The BioptronZepterGdanskBioptronZepterAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("612f79ea-e552-47a8-a9e8-391119e1da7e")]
+        public partial class BioptronZepterGdanskBioptronZepterAppFolder : RepoGenBaseFolder
+        {
+            TAU_Selenium_WebDriverRepositoryFolders.ElementorSectionWrapFolder _elementorsectionwrap;
+            RepoItemInfo _formfieldmessageInfo;
+            RepoItemInfo _formfieldnameInfo;
+
+            /// <summary>
+            /// Creates a new BioptronZepterGdanskBioptronZepter  folder.
+            /// </summary>
+            public BioptronZepterGdanskBioptronZepterAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("BioptronZepterGdanskBioptronZepter", "/dom[@domain='bioptron-gdansk.pl']", parentFolder, 30000, null, false, "612f79ea-e552-47a8-a9e8-391119e1da7e", "")
+            {
+                _elementorsectionwrap = new TAU_Selenium_WebDriverRepositoryFolders.ElementorSectionWrapFolder(this);
+                _formfieldmessageInfo = new RepoItemInfo(this, "FormFieldMessage", ".//textarea[#'form-field-message']", 30000, null, "58caa656-810d-4bf1-b652-1490c7be77ee");
+                _formfieldnameInfo = new RepoItemInfo(this, "FormFieldName", ".//input[#'form-field-name']", 30000, null, "29cb9cc8-8858-4920-844c-2ccd355691a4");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("612f79ea-e552-47a8-a9e8-391119e1da7e")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("612f79ea-e552-47a8-a9e8-391119e1da7e")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FormFieldMessage item.
+            /// </summary>
+            [RepositoryItem("58caa656-810d-4bf1-b652-1490c7be77ee")]
+            public virtual Ranorex.TextAreaTag FormFieldMessage
+            {
+                get
+                {
+                    return _formfieldmessageInfo.CreateAdapter<Ranorex.TextAreaTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FormFieldMessage item info.
+            /// </summary>
+            [RepositoryItemInfo("58caa656-810d-4bf1-b652-1490c7be77ee")]
+            public virtual RepoItemInfo FormFieldMessageInfo
+            {
+                get
+                {
+                    return _formfieldmessageInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FormFieldName item.
+            /// </summary>
+            [RepositoryItem("29cb9cc8-8858-4920-844c-2ccd355691a4")]
+            public virtual Ranorex.InputTag FormFieldName
+            {
+                get
+                {
+                    return _formfieldnameInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FormFieldName item info.
+            /// </summary>
+            [RepositoryItemInfo("29cb9cc8-8858-4920-844c-2ccd355691a4")]
+            public virtual RepoItemInfo FormFieldNameInfo
+            {
+                get
+                {
+                    return _formfieldnameInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ElementorSectionWrap folder.
+            /// </summary>
+            [RepositoryFolder("ccf892ff-6338-429b-ba77-8c1d01ad79a3")]
+            public virtual TAU_Selenium_WebDriverRepositoryFolders.ElementorSectionWrapFolder ElementorSectionWrap
+            {
+                get { return _elementorsectionwrap; }
+            }
+        }
+
+        /// <summary>
+        /// The ElementorSectionWrapFolder folder.
+        /// </summary>
+        [RepositoryFolder("ccf892ff-6338-429b-ba77-8c1d01ad79a3")]
+        public partial class ElementorSectionWrapFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _elementorelementelementorelement44e9Info;
+            RepoItemInfo _elementorelementelementorelementb35aInfo;
+            RepoItemInfo _elementorelementelementorelement35f5Info;
+            RepoItemInfo _formfieldsfield1Info;
+            SendInfoClass _sendInfo;
+            RepoItemInfo _wysyłanieformularzazakończonesukcesemInfo;
+            RepoItemInfo _formfieldsfield2Info;
+            RepoItemInfo _somespantagInfo;
+            RepoItemInfo _animatedelementorelementelementoreleInfo;
+            RepoItemInfo _httpbioptrongdanskplwpcontentuplInfo;
+            HttpBioptronGdanskPlWpContentUpl1InfoClass _httpbioptrongdanskplwpcontentupl1Info;
+            RepoItemInfo _bioptronmedolightInfo;
+
+            /// <summary>
+            /// Creates a new ElementorSectionWrap  folder.
+            /// </summary>
+            public ElementorSectionWrapFolder(RepoGenBaseFolder parentFolder) :
+                    base("ElementorSectionWrap", "body/div[1]/?/?/div", parentFolder, 30000, null, false, "ccf892ff-6338-429b-ba77-8c1d01ad79a3", "")
+            {
+                _elementorelementelementorelement44e9Info = new RepoItemInfo(this, "ElementorElementElementorElement44e9", "section[4]", 30000, null, "78f36286-896e-4e18-88d0-3dc93be79c94");
+                _elementorelementelementorelementb35aInfo = new RepoItemInfo(this, "ElementorElementElementorElementB35a", "section[6]", 30000, null, "bd712624-0f9c-49f3-9c5f-a9819e79a38d");
+                _elementorelementelementorelement35f5Info = new RepoItemInfo(this, "ElementorElementElementorElement35f5", "section[9]", 30000, null, "4f1b90fd-673f-4a4b-b0eb-6b4459c2553a");
+                _formfieldsfield1Info = new RepoItemInfo(this, "FormFieldsField1", "section[9]/div/div/div[2]//form[@name='New Form']/div/div[1]/input[@name='form_fields[field_1]']", 30000, null, "5583db6b-ba59-4cdc-bd05-63541862f294");
+                _sendInfo = new SendInfoClass(this);
+                _wysyłanieformularzazakończonesukcesemInfo = new RepoItemInfo(this, "WysyłanieFormularzaZakończoneSukcesem", "section/div/div/div[2]//form[@name='New Form']/div[@innertext>'Wysyłanie formularza zakończone']", 30000, null, "231b9914-66aa-4175-ad7d-77036b73ce4c");
+                _formfieldsfield2Info = new RepoItemInfo(this, "FormFieldsField2", "section[9]/div/div/div[2]//form[@name='New Form']/div/div[2]/input[@title>'Akceptowane są jedynie cyfry']", 30000, null, "0a4dd01e-9ddf-43d5-9221-487f9643b52c");
+                _somespantagInfo = new RepoItemInfo(this, "SomeSpanTag", "section[9]/div/div/div[2]//form[@name='New Form']/div/div[5]/button/span", 30000, null, "e33a7dce-3ea0-4eec-892d-60bd7b6ed54c");
+                _animatedelementorelementelementoreleInfo = new RepoItemInfo(this, "AnimatedElementorElementElementorEle", "section[3]", 30000, null, "5a0ed0f1-6f20-405f-b452-a64910e8e452");
+                _httpbioptrongdanskplwpcontentuplInfo = new RepoItemInfo(this, "HttpBioptronGdanskPlWpContentUpl", "section[3]/div/div/div[1]//figure/a[@href>'http://bioptron-gdansk.pl']/img[@alt='']", 30000, null, "0b0b5774-ca06-4408-adf2-bd080513c1e7");
+                _httpbioptrongdanskplwpcontentupl1Info = new HttpBioptronGdanskPlWpContentUpl1InfoClass(this);
+                _bioptronmedolightInfo = new RepoItemInfo(this, "BioptronMedoLight", "section[3]//header/div/div/div/div/div/div/h1/a[@innertext='Bioptron MedoLight']", 30000, null, "5e9a0c18-1330-45a7-be65-76f36d8f87e4");
+            }
+
+            /// <summary>
+            /// The SendInfoClass folder.
+            /// </summary>
+            [RepositoryItemInfo("831135ae-7622-42e8-a46c-a4907df68005")]
+            public class SendInfoClass : RepoItemInfo
+            {
+                /// <summary>
+                /// SendInfoClass class constructor.
+                /// </summary>
+                public SendInfoClass(RepoGenBaseFolder parentFolder)
+                    : base(parentFolder, "Send", "section[9]/div/div/div[2]/div/div/div/div/form[@name='New Form']/div/div[5]//span[@innertext='Send']", 30000, null, "831135ae-7622-42e8-a46c-a4907df68005")
+                { }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <returns>The Screenshot1 image.</returns>
+                [RepositoryImage("c4ddbf07-2d2d-42a2-bd45-fb9905aea205")]
+                public CompressedImage GetScreenshot1()
+                {
+                    return GetImage("c4ddbf07-2d2d-42a2-bd45-fb9905aea205");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("c4ddbf07-2d2d-42a2-bd45-fb9905aea205")]
+                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("c4ddbf07-2d2d-42a2-bd45-fb9905aea205", cropRect);
+                }
+
+                /// <summary>
+                /// Gets the Screenshot2 item image.
+                /// </summary>
+                /// <returns>The Screenshot2 image.</returns>
+                [RepositoryImage("9a095745-d670-4af9-a22d-269154f9f06e")]
+                public CompressedImage GetScreenshot2()
+                {
+                    return GetImage("9a095745-d670-4af9-a22d-269154f9f06e");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot2 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("9a095745-d670-4af9-a22d-269154f9f06e")]
+                public CompressedImage GetScreenshot2(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("9a095745-d670-4af9-a22d-269154f9f06e", cropRect);
+                }
+            }
+
+            /// <summary>
+            /// The HttpBioptronGdanskPlWpContentUpl1InfoClass folder.
+            /// </summary>
+            [RepositoryItemInfo("152f0261-7f72-4821-8e57-637b81bd7d1a")]
+            public class HttpBioptronGdanskPlWpContentUpl1InfoClass : RepoItemInfo
+            {
+                /// <summary>
+                /// HttpBioptronGdanskPlWpContentUpl1InfoClass class constructor.
+                /// </summary>
+                public HttpBioptronGdanskPlWpContentUpl1InfoClass(RepoGenBaseFolder parentFolder)
+                    : base(parentFolder, "HttpBioptronGdanskPlWpContentUpl1", "section[3]/div/div/div[2]//figure/a[@href>'http://bioptron-gdansk.pl']/img[@alt='']", 30000, null, "152f0261-7f72-4821-8e57-637b81bd7d1a")
+                { }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <returns>The Screenshot1 image.</returns>
+                [RepositoryImage("2ae57a75-ec2d-421f-8a2c-c402b1e2ab88")]
+                public CompressedImage GetScreenshot1()
+                {
+                    return GetImage("2ae57a75-ec2d-421f-8a2c-c402b1e2ab88");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("2ae57a75-ec2d-421f-8a2c-c402b1e2ab88")]
+                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("2ae57a75-ec2d-421f-8a2c-c402b1e2ab88", cropRect);
+                }
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("ccf892ff-6338-429b-ba77-8c1d01ad79a3")]
+            public virtual Ranorex.DivTag Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("ccf892ff-6338-429b-ba77-8c1d01ad79a3")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ElementorElementElementorElement44e9 item.
+            /// </summary>
+            [RepositoryItem("78f36286-896e-4e18-88d0-3dc93be79c94")]
+            public virtual Ranorex.SectionTag ElementorElementElementorElement44e9
+            {
+                get
+                {
+                    return _elementorelementelementorelement44e9Info.CreateAdapter<Ranorex.SectionTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ElementorElementElementorElement44e9 item info.
+            /// </summary>
+            [RepositoryItemInfo("78f36286-896e-4e18-88d0-3dc93be79c94")]
+            public virtual RepoItemInfo ElementorElementElementorElement44e9Info
+            {
+                get
+                {
+                    return _elementorelementelementorelement44e9Info;
+                }
+            }
+
+            /// <summary>
+            /// The ElementorElementElementorElementB35a item.
+            /// </summary>
+            [RepositoryItem("bd712624-0f9c-49f3-9c5f-a9819e79a38d")]
+            public virtual Ranorex.SectionTag ElementorElementElementorElementB35a
+            {
+                get
+                {
+                    return _elementorelementelementorelementb35aInfo.CreateAdapter<Ranorex.SectionTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ElementorElementElementorElementB35a item info.
+            /// </summary>
+            [RepositoryItemInfo("bd712624-0f9c-49f3-9c5f-a9819e79a38d")]
+            public virtual RepoItemInfo ElementorElementElementorElementB35aInfo
+            {
+                get
+                {
+                    return _elementorelementelementorelementb35aInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ElementorElementElementorElement35f5 item.
+            /// </summary>
+            [RepositoryItem("4f1b90fd-673f-4a4b-b0eb-6b4459c2553a")]
+            public virtual Ranorex.SectionTag ElementorElementElementorElement35f5
+            {
+                get
+                {
+                    return _elementorelementelementorelement35f5Info.CreateAdapter<Ranorex.SectionTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ElementorElementElementorElement35f5 item info.
+            /// </summary>
+            [RepositoryItemInfo("4f1b90fd-673f-4a4b-b0eb-6b4459c2553a")]
+            public virtual RepoItemInfo ElementorElementElementorElement35f5Info
+            {
+                get
+                {
+                    return _elementorelementelementorelement35f5Info;
+                }
+            }
+
+            /// <summary>
+            /// The FormFieldsField1 item.
+            /// </summary>
+            [RepositoryItem("5583db6b-ba59-4cdc-bd05-63541862f294")]
+            public virtual Ranorex.InputTag FormFieldsField1
+            {
+                get
+                {
+                    return _formfieldsfield1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FormFieldsField1 item info.
+            /// </summary>
+            [RepositoryItemInfo("5583db6b-ba59-4cdc-bd05-63541862f294")]
+            public virtual RepoItemInfo FormFieldsField1Info
+            {
+                get
+                {
+                    return _formfieldsfield1Info;
+                }
+            }
+
+            /// <summary>
+            /// The Send item.
+            /// </summary>
+            [RepositoryItem("831135ae-7622-42e8-a46c-a4907df68005")]
+            public virtual Ranorex.SpanTag Send
+            {
+                get
+                {
+                    return _sendInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Send item info.
+            /// </summary>
+            [RepositoryItemInfo("831135ae-7622-42e8-a46c-a4907df68005")]
+            public virtual SendInfoClass SendInfo
+            {
+                get
+                {
+                    return _sendInfo;
+                }
+            }
+
+            /// <summary>
+            /// The WysyłanieFormularzaZakończoneSukcesem item.
+            /// </summary>
+            [RepositoryItem("231b9914-66aa-4175-ad7d-77036b73ce4c")]
+            public virtual Ranorex.DivTag WysyłanieFormularzaZakończoneSukcesem
+            {
+                get
+                {
+                    return _wysyłanieformularzazakończonesukcesemInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The WysyłanieFormularzaZakończoneSukcesem item info.
+            /// </summary>
+            [RepositoryItemInfo("231b9914-66aa-4175-ad7d-77036b73ce4c")]
+            public virtual RepoItemInfo WysyłanieFormularzaZakończoneSukcesemInfo
+            {
+                get
+                {
+                    return _wysyłanieformularzazakończonesukcesemInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FormFieldsField2 item.
+            /// </summary>
+            [RepositoryItem("0a4dd01e-9ddf-43d5-9221-487f9643b52c")]
+            public virtual Ranorex.InputTag FormFieldsField2
+            {
+                get
+                {
+                    return _formfieldsfield2Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FormFieldsField2 item info.
+            /// </summary>
+            [RepositoryItemInfo("0a4dd01e-9ddf-43d5-9221-487f9643b52c")]
+            public virtual RepoItemInfo FormFieldsField2Info
+            {
+                get
+                {
+                    return _formfieldsfield2Info;
+                }
+            }
+
+            /// <summary>
+            /// The SomeSpanTag item.
+            /// </summary>
+            [RepositoryItem("e33a7dce-3ea0-4eec-892d-60bd7b6ed54c")]
+            public virtual Ranorex.SpanTag SomeSpanTag
+            {
+                get
+                {
+                    return _somespantagInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SomeSpanTag item info.
+            /// </summary>
+            [RepositoryItemInfo("e33a7dce-3ea0-4eec-892d-60bd7b6ed54c")]
+            public virtual RepoItemInfo SomeSpanTagInfo
+            {
+                get
+                {
+                    return _somespantagInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AnimatedElementorElementElementorEle item.
+            /// </summary>
+            [RepositoryItem("5a0ed0f1-6f20-405f-b452-a64910e8e452")]
+            public virtual Ranorex.SectionTag AnimatedElementorElementElementorEle
+            {
+                get
+                {
+                    return _animatedelementorelementelementoreleInfo.CreateAdapter<Ranorex.SectionTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AnimatedElementorElementElementorEle item info.
+            /// </summary>
+            [RepositoryItemInfo("5a0ed0f1-6f20-405f-b452-a64910e8e452")]
+            public virtual RepoItemInfo AnimatedElementorElementElementorEleInfo
+            {
+                get
+                {
+                    return _animatedelementorelementelementoreleInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpBioptronGdanskPlWpContentUpl item.
+            /// </summary>
+            [RepositoryItem("0b0b5774-ca06-4408-adf2-bd080513c1e7")]
+            public virtual Ranorex.ImgTag HttpBioptronGdanskPlWpContentUpl
+            {
+                get
+                {
+                    return _httpbioptrongdanskplwpcontentuplInfo.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpBioptronGdanskPlWpContentUpl item info.
+            /// </summary>
+            [RepositoryItemInfo("0b0b5774-ca06-4408-adf2-bd080513c1e7")]
+            public virtual RepoItemInfo HttpBioptronGdanskPlWpContentUplInfo
+            {
+                get
+                {
+                    return _httpbioptrongdanskplwpcontentuplInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpBioptronGdanskPlWpContentUpl1 item.
+            /// </summary>
+            [RepositoryItem("152f0261-7f72-4821-8e57-637b81bd7d1a")]
+            public virtual Ranorex.ImgTag HttpBioptronGdanskPlWpContentUpl1
+            {
+                get
+                {
+                    return _httpbioptrongdanskplwpcontentupl1Info.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpBioptronGdanskPlWpContentUpl1 item info.
+            /// </summary>
+            [RepositoryItemInfo("152f0261-7f72-4821-8e57-637b81bd7d1a")]
+            public virtual HttpBioptronGdanskPlWpContentUpl1InfoClass HttpBioptronGdanskPlWpContentUpl1Info
+            {
+                get
+                {
+                    return _httpbioptrongdanskplwpcontentupl1Info;
+                }
+            }
+
+            /// <summary>
+            /// The BioptronMedoLight item.
+            /// </summary>
+            [RepositoryItem("5e9a0c18-1330-45a7-be65-76f36d8f87e4")]
+            public virtual Ranorex.ATag BioptronMedoLight
+            {
+                get
+                {
+                    return _bioptronmedolightInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BioptronMedoLight item info.
+            /// </summary>
+            [RepositoryItemInfo("5e9a0c18-1330-45a7-be65-76f36d8f87e4")]
+            public virtual RepoItemInfo BioptronMedoLightInfo
+            {
+                get
+                {
+                    return _bioptronmedolightInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The INKUBITMicrosoftDynamics365CRMConAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("2d6537aa-775b-4bab-a32d-40f4e427af7f")]
+        public partial class INKUBITMicrosoftDynamics365CRMConAppFolder : RepoGenBaseFolder
+        {
+            TAU_Selenium_WebDriverRepositoryFolders.Form0Folder _form0;
+            RepoItemInfo _contactInfo;
+            RepoItemInfo _emailaddresserrorInfo;
+            RepoItemInfo _firstnameerrorInfo;
+            RepoItemInfo _lastnameerrorInfo;
+            RepoItemInfo _messageerrorInfo;
+
+            /// <summary>
+            /// Creates a new INKUBITMicrosoftDynamics365CRMCon  folder.
+            /// </summary>
+            public INKUBITMicrosoftDynamics365CRMConAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("INKUBITMicrosoftDynamics365CRMCon", "/dom[@domain='inkubit.com']", parentFolder, 30000, null, false, "2d6537aa-775b-4bab-a32d-40f4e427af7f", "")
+            {
+                _form0 = new TAU_Selenium_WebDriverRepositoryFolders.Form0Folder(this);
+                _contactInfo = new RepoItemInfo(this, "Contact", "body/div[5]/div[1]/?/?/header/div/div/div/div[2]//nav/ul/li[6]/a[@innertext='Contact']", 30000, null, "72aa62c4-2989-4b21-9c6a-fa68126d7e75");
+                _emailaddresserrorInfo = new RepoItemInfo(this, "EmailAddressError", ".//span[#'EmailAddress-error']", 30000, null, "03d71a29-43b3-4167-a578-979b905f6db8");
+                _firstnameerrorInfo = new RepoItemInfo(this, "FirstNameError", ".//span[#'FirstName-error']", 30000, null, "400a3473-70b4-4365-a801-7b8bf8546dc1");
+                _lastnameerrorInfo = new RepoItemInfo(this, "LastNameError", ".//span[#'LastName-error']", 30000, null, "3e79db2c-5f55-4ce2-866f-a78b69bef7db");
+                _messageerrorInfo = new RepoItemInfo(this, "MessageError", ".//span[#'Message-error']", 30000, null, "920b66fa-2df6-4faf-84d7-edac84c883da");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("2d6537aa-775b-4bab-a32d-40f4e427af7f")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("2d6537aa-775b-4bab-a32d-40f4e427af7f")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Contact item.
+            /// </summary>
+            [RepositoryItem("72aa62c4-2989-4b21-9c6a-fa68126d7e75")]
+            public virtual Ranorex.ATag Contact
+            {
+                get
+                {
+                    return _contactInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Contact item info.
+            /// </summary>
+            [RepositoryItemInfo("72aa62c4-2989-4b21-9c6a-fa68126d7e75")]
+            public virtual RepoItemInfo ContactInfo
+            {
+                get
+                {
+                    return _contactInfo;
+                }
+            }
+
+            /// <summary>
+            /// The EmailAddressError item.
+            /// </summary>
+            [RepositoryItem("03d71a29-43b3-4167-a578-979b905f6db8")]
+            public virtual Ranorex.SpanTag EmailAddressError
+            {
+                get
+                {
+                    return _emailaddresserrorInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The EmailAddressError item info.
+            /// </summary>
+            [RepositoryItemInfo("03d71a29-43b3-4167-a578-979b905f6db8")]
+            public virtual RepoItemInfo EmailAddressErrorInfo
+            {
+                get
+                {
+                    return _emailaddresserrorInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FirstNameError item.
+            /// </summary>
+            [RepositoryItem("400a3473-70b4-4365-a801-7b8bf8546dc1")]
+            public virtual Ranorex.SpanTag FirstNameError
+            {
+                get
+                {
+                    return _firstnameerrorInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FirstNameError item info.
+            /// </summary>
+            [RepositoryItemInfo("400a3473-70b4-4365-a801-7b8bf8546dc1")]
+            public virtual RepoItemInfo FirstNameErrorInfo
+            {
+                get
+                {
+                    return _firstnameerrorInfo;
+                }
+            }
+
+            /// <summary>
+            /// The LastNameError item.
+            /// </summary>
+            [RepositoryItem("3e79db2c-5f55-4ce2-866f-a78b69bef7db")]
+            public virtual Ranorex.SpanTag LastNameError
+            {
+                get
+                {
+                    return _lastnameerrorInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LastNameError item info.
+            /// </summary>
+            [RepositoryItemInfo("3e79db2c-5f55-4ce2-866f-a78b69bef7db")]
+            public virtual RepoItemInfo LastNameErrorInfo
+            {
+                get
+                {
+                    return _lastnameerrorInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MessageError item.
+            /// </summary>
+            [RepositoryItem("920b66fa-2df6-4faf-84d7-edac84c883da")]
+            public virtual Ranorex.SpanTag MessageError
+            {
+                get
+                {
+                    return _messageerrorInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MessageError item info.
+            /// </summary>
+            [RepositoryItemInfo("920b66fa-2df6-4faf-84d7-edac84c883da")]
+            public virtual RepoItemInfo MessageErrorInfo
+            {
+                get
+                {
+                    return _messageerrorInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Form0 folder.
+            /// </summary>
+            [RepositoryFolder("ca98252d-7593-47ce-bab3-63f97b5d64ae")]
+            public virtual TAU_Selenium_WebDriverRepositoryFolders.Form0Folder Form0
+            {
+                get { return _form0; }
+            }
+        }
+
+        /// <summary>
+        /// The Form0Folder folder.
+        /// </summary>
+        [RepositoryFolder("ca98252d-7593-47ce-bab3-63f97b5d64ae")]
+        public partial class Form0Folder : RepoGenBaseFolder
+        {
+            RepoItemInfo _sendInfo;
+            RepoItemInfo _emailaddressInfo;
+            RepoItemInfo _firstnameInfo;
+            RepoItemInfo _lastnameInfo;
+            RepoItemInfo _messageInfo;
+
+            /// <summary>
+            /// Creates a new Form0  folder.
+            /// </summary>
+            public Form0Folder(RepoGenBaseFolder parentFolder) :
+                    base("Form0", ".//div[#'sidebarContactForm']/form[@action='https://inkubit.com/umbraco/Surface/ContactForm/SidebarSendMessage']", parentFolder, 30000, null, false, "ca98252d-7593-47ce-bab3-63f97b5d64ae", "")
+            {
+                _sendInfo = new RepoItemInfo(this, "SEND", "?/?/button[@innertext='SEND']", 30000, null, "6820dd5e-643b-4964-8df4-5b650ed54b73");
+                _emailaddressInfo = new RepoItemInfo(this, "EmailAddress", "?/?/input[@id='EmailAddress']", 30000, null, "01ee1d76-051f-41f0-8a9c-faab89e0bad3");
+                _firstnameInfo = new RepoItemInfo(this, "FirstName", "?/?/input[@id='FirstName']", 30000, null, "3b0375bd-7ab3-4992-81f7-4b66d13b03e1");
+                _lastnameInfo = new RepoItemInfo(this, "LastName", "?/?/input[@id='LastName']", 30000, null, "c6d39cb0-d93f-4924-b93f-7b0bcba28783");
+                _messageInfo = new RepoItemInfo(this, "Message", "?/?/textarea[@id='Message']", 30000, null, "b3f00ea7-5c75-4005-99b5-ffadecd47b20");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("ca98252d-7593-47ce-bab3-63f97b5d64ae")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("ca98252d-7593-47ce-bab3-63f97b5d64ae")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SEND item.
+            /// </summary>
+            [RepositoryItem("6820dd5e-643b-4964-8df4-5b650ed54b73")]
+            public virtual Ranorex.ButtonTag SEND
+            {
+                get
+                {
+                    return _sendInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SEND item info.
+            /// </summary>
+            [RepositoryItemInfo("6820dd5e-643b-4964-8df4-5b650ed54b73")]
+            public virtual RepoItemInfo SENDInfo
+            {
+                get
+                {
+                    return _sendInfo;
+                }
+            }
+
+            /// <summary>
+            /// The EmailAddress item.
+            /// </summary>
+            [RepositoryItem("01ee1d76-051f-41f0-8a9c-faab89e0bad3")]
+            public virtual Ranorex.InputTag EmailAddress
+            {
+                get
+                {
+                    return _emailaddressInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The EmailAddress item info.
+            /// </summary>
+            [RepositoryItemInfo("01ee1d76-051f-41f0-8a9c-faab89e0bad3")]
+            public virtual RepoItemInfo EmailAddressInfo
+            {
+                get
+                {
+                    return _emailaddressInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FirstName item.
+            /// </summary>
+            [RepositoryItem("3b0375bd-7ab3-4992-81f7-4b66d13b03e1")]
+            public virtual Ranorex.InputTag FirstName
+            {
+                get
+                {
+                    return _firstnameInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FirstName item info.
+            /// </summary>
+            [RepositoryItemInfo("3b0375bd-7ab3-4992-81f7-4b66d13b03e1")]
+            public virtual RepoItemInfo FirstNameInfo
+            {
+                get
+                {
+                    return _firstnameInfo;
+                }
+            }
+
+            /// <summary>
+            /// The LastName item.
+            /// </summary>
+            [RepositoryItem("c6d39cb0-d93f-4924-b93f-7b0bcba28783")]
+            public virtual Ranorex.InputTag LastName
+            {
+                get
+                {
+                    return _lastnameInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LastName item info.
+            /// </summary>
+            [RepositoryItemInfo("c6d39cb0-d93f-4924-b93f-7b0bcba28783")]
+            public virtual RepoItemInfo LastNameInfo
+            {
+                get
+                {
+                    return _lastnameInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Message item.
+            /// </summary>
+            [RepositoryItem("b3f00ea7-5c75-4005-99b5-ffadecd47b20")]
+            public virtual Ranorex.TextAreaTag Message
+            {
+                get
+                {
+                    return _messageInfo.CreateAdapter<Ranorex.TextAreaTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Message item info.
+            /// </summary>
+            [RepositoryItemInfo("b3f00ea7-5c75-4005-99b5-ffadecd47b20")]
+            public virtual RepoItemInfo MessageInfo
+            {
+                get
+                {
+                    return _messageInfo;
                 }
             }
         }
