@@ -2,12 +2,30 @@
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
+			<testcase
+			id="08d52453-8c0b-4e77-aa4f-569f0ffccbad"
+			name="TestCase_for_LogIn/Register_Feature">
+				<description>
+					<![CDATA[<p><a href="http://automationpractice.com/"><font color="#0066cc">http://automationpractice.com/</font></a></p>]]>
+				</description>
+			</testcase>
 			<testmodule
 			id="0b2eb71c-ed93-42f9-bb2a-81fc9a6c0c95"
 			name="FormFieldValidation"
 			ref="0da12db1-debc-4381-a35d-a61e132707c6"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="100cc41b-9ae9-4f37-a588-4b64c512dc86"
+			name="FormRegistrationValidation">
+				<description>
+					<![CDATA[Validation + successfull login]]>
+				</description>
+			</smartfoldernode>
+			<smartfoldernode
+			id="11addd88-06e1-43db-948c-fa0af0dccd77"
+			name="FailedRegistration">
+			</smartfoldernode>
 			<testcase
 			id="13ca27d1-e138-41e2-b601-11d80abbdbf9"
 			name="TestCase_for_FieldFormValidation">
@@ -53,11 +71,27 @@
 				</parameters>
 			</testcase>
 			<testmodule
+			id="487a2ec9-e89f-41c8-bdb8-c891c623c783"
+			name="ValidationOfRegistrationForm"
+			ref="a40b003f-9988-4fa0-8862-ea267246bd25"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="4afab8b7-8cdc-47d0-ab1a-c2d91e58cb4d"
+			name="FailedRegistration"
+			ref="e7dfe7d8-baea-4e5b-88a6-c067343d4633"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="64f35d0b-2b72-49d5-b134-a59a41e1880e"
 			name="WrongEmail"
 			ref="467a4d20-c0bc-4ae8-b5b0-d790c7fd02c7"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="71f00cad-7c2f-45e8-a782-5cab6b6bd77b"
+			name="EmailValidation">
+			</smartfoldernode>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -77,6 +111,12 @@
 			reporttemplatefolder=""
 			reportwriteinterval="30000ms">
 			</testsuite>
+			<testmodule
+			id="8cfb7884-6dfc-46fa-ace3-966985428d9f"
+			name="FormValidation"
+			ref="4a769d4d-5213-4e7b-835d-5de7d68ba3fe"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="e5917357-213c-434a-8407-2d0f5c8f5856"
 			name="TAU_Selenium_WebDriver"
@@ -117,6 +157,34 @@
 						id="315e6d40-cd84-46ad-aaf8-d369ce8d7dc7"
 						name="WebsiteValidationAndFunctions">
 						</testmodule>
+					</testcase>
+					<testcase
+					id="08d52453-8c0b-4e77-aa4f-569f0ffccbad"
+					name="TestCase_for_LogIn/Register_Feature">
+						<smartfoldernode
+						id="71f00cad-7c2f-45e8-a782-5cab6b6bd77b"
+						name="EmailValidation">
+							<testmodule
+							id="487a2ec9-e89f-41c8-bdb8-c891c623c783"
+							name="ValidationOfRegistrationForm">
+							</testmodule>
+						</smartfoldernode>
+						<smartfoldernode
+						id="100cc41b-9ae9-4f37-a588-4b64c512dc86"
+						name="FormRegistrationValidation">
+							<testmodule
+							id="8cfb7884-6dfc-46fa-ace3-966985428d9f"
+							name="FormValidation">
+							</testmodule>
+						</smartfoldernode>
+						<smartfoldernode
+						id="11addd88-06e1-43db-948c-fa0af0dccd77"
+						name="FailedRegistration">
+							<testmodule
+							id="4afab8b7-8cdc-47d0-ab1a-c2d91e58cb4d"
+							name="FailedRegistration">
+							</testmodule>
+						</smartfoldernode>
 					</testcase>
 				</testcase>
 			</testsuite>

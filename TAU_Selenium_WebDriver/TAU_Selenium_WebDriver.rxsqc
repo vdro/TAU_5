@@ -1,0 +1,12 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "TAU_Selenium_WebDriver",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "TAU_Selenium_WebDriver_Practice_Website",
+    "RunConfig": "TestRun"
+  }
+]

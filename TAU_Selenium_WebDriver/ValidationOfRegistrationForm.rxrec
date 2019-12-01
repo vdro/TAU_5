@@ -1,0 +1,1782 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a40b003f-9988-4fa0-8862-ea267246bd25"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ValidationOfRegistrationForm"
+	namespace="TAU_Selenium_WebDriver">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="Chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="True"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+			</url>
+		</openwebsiterecorditem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="56;19"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="61223b14-a6b6-4010-b804-9be6b94eaddb"
+		sx="2102"
+		sy="741"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="57f9edc5-f8ab-4d73-9d0c-449ced54cf1b"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="inputtag"
+				rect="2046,722,271,27"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						is_required validate account_input form-control
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						email_create
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						account_input form-control is_required validate
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						email_create
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-validate"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='automationpractice.com']//input[#'email_create']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="68cee8a2-e56f-4afe-9ede-2282a8897ad7">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABIAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAan3F+lLSJ9xfpS0AUryZ0vIoxLIiMjE+Wm45GPY0/wC1LF5S
+HzpXl3bdyhSceoOMU6a3ke5SeKRUZFK4ZNwOfxHpQbd3nhlkkUtFu+6mAc/iaAGQ6hHM0YCSKJc7
+SwGCR1HWmnUI3EyLvjkSMvyASMe2f0OKE0/YsC+af3Rc5C4zuz+XWmR6YyLtMykCFogBHjg9+vWg
+ZJaTySXJRnLJ5KMMgDk5yafLfRwzrE6uNxChuMEn8cn8BRb2vkS79+792qYxjp3qKTT2aZ3EwCvI
+shGzJyO2c9KOohLi+JKCEOB56xl8DB55FFxfElBCHA89Yy+Bg88inGwbIVZsRiYShdnOc5xnPSg2
+DZCrNiMTCULs5znOM56UIB/2+MCRvLk2xsUJwOWzjA5oe/ijiZ3V1KsEKHGQT75x+tNawVreaJnz
+5khkB29DnOMd6BY4gZAYQWYMQIV28dsf/XoAc98kccbNHIGkYqEIAOfxOP1qxG/mRq+1lyM4YYI+
+tU104LbiIOhG8sVaPcnPYAnI/OrNpALa3SEMW29zQBLRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAtFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUANT7i/SlpE+4v0paAMlNZlkGUsnYdMhif6U7+1Z/+gfJ+Z/wpfD//
+AB6Sf7/9BWpURu1e51VXThNx5PxZlf2rP/0D5PzP+FH9qz/9A+T8z/hWrRTs+5HtKf8AJ+LMr+1Z
+/wDoHyfmf8KP7Vn/AOgfJ+Z/wrVoos+4e0p/yfizK/tWf/oHyfmf8KP7Vn/6B8n5n/CtWiiz7h7S
+n/J+LMr+1Z/+gfJ+Z/wo/tWf/oHyfmf8K1aKLPuHtKf8n4syv7Vn/wCgfJ+Z/wAKP7Vn/wCgfJ+Z
+/wAK1aKLPuHtKf8AJ+LMr+1Z/wDoHyfmf8KP7Vn/AOgfJ+Z/wrVoos+4e0p/yfizK/tWf/oHyfmf
+8KP7Vn/6B8n5n/CtWiiz7h7Sn/J+LMr+1Z/+gfJ+Z/wo/tWf/oHyfmf8K1aKLPuHtKf8n4syv7Vn
+/wCgfJ+Z/wAKP7Vn/wCgfJ+Z/wAK1aKLPuHtKf8AJ+LMr+1Z/wDoHyfmf8KP7Vn/AOgfJ+Z/wrVo
+os+4e0p/yfizK/tWf/oHyfmf8KP7Vn/6B8n5n/CtWiiz7h7Sn/J+LMr+1Z/+gfJ+Z/wo/tWf/oHy
+fmf8K1aKLPuHtKf8n4syv7Vn/wCgfJ+Z/wAKP7Vn/wCgfJ+Z/wAK1aKLPuHtKf8AJ+LMr+1Z/wDo
+Hyfmf8KP7Vn/AOgfJ+Z/wrVoos+4e0p/yfizK/tWf/oHyfmf8KP7Vn/6B8n5n/CtWiiz7h7Sn/J+
+LMr+1Z/+gfJ+Z/wo/tWf/oHyfmf8K1aKLPuHtKf8n4szbbU3mu0gktWiLgnLN7Htj2rRrLl/5GC3
+/wBxv/Zq1KI31uKsoqzirXQUUUVRiFFFFABRRRQAUUUUAFFFFABRRRQAUUUUALRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFADU+4v0paRPuL9KWgDM8P/8AHpJ/v/0FalZfh/8A49JP9/8AoK1KmHwo3xH8
+WQUUUVRgFFFFABRRR6UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFAGVL/wAjBb/7jf8As1alZcv/ACMFv/uN/wCzVqVMepvW2j6f5hRRRVGAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAtFFFABRRRQAUUUUAFFFFABRRRQAUUUUANT7i/SlpE+4v0paAMS0i
+1O0jKR2yEE55Yf0NT+bq3/PtH/33/wDZVqUVCjbqdEq/M7uK/r5mX5urf8+0f/ff/wBlR5urf8+0
+f/ff/wBlWpRT5fMXtl/Kv6+Zl+bq3/PtH/33/wDZUebq3/PtH/33/wDZVqUUcvmHtl/Kv6+Zl+bq
+3/PtH/33/wDZUebq3/PtH/31/wDZVqUUcvmHtl/Kv6+Zl+bq3/PtH/33/wDZUebq3/PtH/33/wDZ
+VqUUcvmHtl/Kv6+Zl+bq3/PtH/33/wDZUebq3/PtH/33/wDZVqUUcvmHtl/Kv6+Zl+bq3/PtH/33
+/wDZUebq3/PtH/33/wDZVqUUcvmHtl/Kv6+Zl+bq3/PtH/33/wDZUebq3/PtH/33/wDZVqUUcvmH
+tl/Kv6+Zl+bq3/PtH/33/wDZUebq3/PtH/33/wDZVqUUcvmHtl/Kv6+Zl+bq3/PtH/33/wDZUebq
+3/PtH/33/wDZVqUUcvmHtl/Kv6+Zl+bq3/PtH/33/wDZUebq3/PtH/33/wDZVqUUcvmHtl/Kv6+Z
+l+bq3/PtH/33/wDZUebq3/PtH/33/wDZVqUUcvmHtl/Kv6+Zl+bq3/PtH/33/wDZUebq3/PtH/33
+/wDZVqUUcvmHtl/Kv6+Zl+bq3/PtH/33/wDZUebq3/PtH/33/wDZVqUUcvmHtl/Kv6+Zl+bq3/Pt
+H/33/wDZUebq3/PtH/33/wDZVqUUcvmHtl/Kv6+Zl+bq3/PtH/33/wDZUebq3/PtH/33/wDZVqUU
+cvmHtl/Kv6+Zl+bq3/PtH/33/wDZUebq3/PtH/33/wDZVqUUcvmHtl/Kv6+ZlQQ3smpxXFxCqKgI
+JVh6H3PrWrRRTSsRUqObWlrBRRRTMwooooAKKKKACiiigAooooAKKKKACiiigBaKKKACiiigAooo
+oAKKKKACiiigAooooAan3F+lLRRQBG88cbbWJzjPAJpv2qL1b/vg/wCFFFck68oyaRvGmmrh9qi9
+W/74P+FH2qL1b/vg/wCFFFR9ZmP2UQ+1Rerf98H/AAo+1Rerf98H/Ciij6zMPZRD7VF6t/3wf8KP
+tUXq3/fB/wAKKKPrMw9lEPtUXq3/AHwf8KPtUXq3/fB/wooo+szD2UQ+1Rerf98H/Cj7VF6t/wB8
+H/Ciij6zMPZRD7VF6t/3wf8ACj7VF6t/3wf8KKKPrMw9lEPtUXq3/fB/wo+1Rerf98H/AAooo+sz
+D2UQ+1Rerf8AfB/wo+1Rerf98H/Ciij6zMPZRD7VF6t/3wf8KPtUXq3/AHwf8KKKPrMw9lEPtUXq
+3/fB/wAKPtUXq3/fB/wooo+szD2UQ+1Rerf98H/Cj7VF6t/3wf8ACiij6zMPZRD7VF6t/wB8H/Cj
+7VF6t/3wf8KKKPrMw9lEkjkWQEocgHHTFOoorrhLmimzGSs7BRRRVkhRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQB/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="123"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="9609b7a3-46bc-4cad-b2cb-c96f2ba860bb">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="57f9edc5-f8ab-4d73-9d0c-449ced54cf1b"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="inputtag"
+				rect="2046,722,271,27"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						is_required validate account_input form-control
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						email_create
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						account_input form-control is_required validate
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						email_create
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-validate"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='automationpractice.com']//input[#'email_create']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="e06d744f-3751-4909-a9f2-b924f390441e">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABIAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAan3F+lLSJ9xfpS0AUryZ0vIoxLIiMjE+Wm45GPY0/wC1LF5S
+HzpXl3bdyhSceoOMU6a3ke5SeKRUZFK4ZNwOfxHpQbd3nhlkkUtFu+6mAc/iaAGQ6hHM0YCSKJc7
+SwGCR1HWmnUI3EyLvjkSMvyASMe2f0OKE0/YsC+af3Rc5Axndn8utMj01kXaZlIELRACPHB79etA
+yS0nkkuSjOWTyUYZAHJzk0+W+jhnWJ1cbiFDcYJP45P4Ci3tfIl37937tUxjHTvUUmns0zuJgFeR
+ZCNmTkds56UdRCXF8SUEIcDz1jL4GDzyKLi+JKCEOB56xl8DB55FONg2QqzYjEwlC7ec5zjOelBs
+GyFWbEYmEoXbznOcZz0oQD/t8YEjeXJtjYoTgctnGBzQ9/FHEzurqVYIUOMgn3zj9aa1grW80TPn
+zJDIDt6HOcY70CxxAyAwgswYgQrt47Y/+vQA575I442aOQNIxUIQAc/icfrViN/MjV9rLkZwwwR9
+aprpwW3EQdCN5Yq0e5OewBOR+dWLWAW1ukIYtt7mgCaiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigBaKKKACii
+igAooooAKKKKACiiigAooooAan3F+lLSJ9xfpQelAEBugOoA/Gk+1L7f99UtqMu/0H9asfKCBxk9
+K56anKKk5fkU7X2K32pfb/vqj7Uvt/31VgNGWKhlLDtnmkMkYViCrbRkgHNXyT/m/L/IV12IPtS+
+3/fVH2pfb/vqrWB6UYHpRyT/AJvy/wAguuxV+1L7f99Ufal9v++qtYHpRgelHJP+b8v8guuxV+1L
+7f8AfVH2pfb/AL6q1gelGB6Uck/5vy/yC67FX7Uvt/31R9qX2/76q1gelGB6Uck/5vy/yC67FX7U
+vt/31R9qX2/76q1gelGB6Uck/wCb8v8AILrsVftS+3/fVH2pfb/vqrWB6UYHpRyT/m/L/ILrsVft
+S+3/AH1R9qX2/wC+qtYHpRgelHJP+b8v8guuxV+1L7f99Ufal9v++qtYHpRgelHJP+b8v8guuxV+
+1L7f99Ufal9v++qtYHpRgelHJP8Am/L/ACC67FX7Uvt/31R9qX2/76q1gelGB6Uck/5vy/yC67FX
+7Uvt/wB9Ufal9v8AvqrWB6UYHpRyT/m/L/ILrsVftS+3/fVH2pfb/vqrWB6UYHpRyT/m/L/ILrsV
+ftS+3/fVH2pfb/vqrWB6UYHpRyT/AJvy/wAguuxV+1L7f99Ufal9v++qtYHpRgelHJP+b8v8guux
+V+1L7f8AfVH2pfb/AL6q1gelGB6Uck/5vy/yC67EEc+9gMcHvmpqqx/67/gTfzNWqKblqm72YPoF
+FFFaiCiiigAooooAKKKKACiiigAooooAKKKKAFooooAKKKKACiiigAooooAKKKKACiiigBqfcX6U
+N0oT7i/Sg9KAILT78n0H9ae6gXUbc5IPemWn35PoP61ZwCQcDI6GsqH8OI5bshwJJF2ABIycn1NR
+z4BONpUxMF29hirAijDZEag+oFI0SFHCqqlwQSBWoh9FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAVI/wDX/wDAm/matVVj/wBd/wACb+Zq
+1WVPeXr/AJD6IKKKK1EFFFFABRRRQAUUUUAFFFFABRRRQAUUUUALRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFADU+4v0paRPuL9KWgCqIpB0Ug+zY/rRsl/2v8Avs/41aorGNLlVlJ/18htp9Crsl/2v++z
+/jRsl/2v++z/AI1aop+zf8z/AK+QXXYq7Jf9r/vs/wCNGyX/AGv++z/jVqij2b/mf9fILrsVdkv+
+1/32f8aNkv8Atf8AfZ/xq1RR7N/zP+vkF12KuyX/AGv++z/jRsl/2v8Avs/41aoo9m/5n/XyC67F
+XZL/ALX/AH2f8aNkv+1/32f8atUUezf8z/r5Bddirsl/2v8Avs/40bJf9r/vs/41aoo9m/5n/XyC
+67FXZL/tf99n/GjZL/tf99n/ABq1RR7N/wAz/r5Bddirsl/2v++z/jRsl/2v++z/AI1aoo9m/wCZ
+/wBfILrsVdkv+1/32f8AGjZL/tf99n/GrVFHs3/M/wCvkF12KuyX/a/77P8AjRsl/wBr/vs/41ao
+o9m/5n/XyC67FXZL/tf99n/GjZL/ALX/AH2f8atUUezf8z/r5Bddirsl/wBr/vs/40bJf9r/AL7P
++NWqKPZv+Z/18guuxV2S/wC1/wB9n/GjZL/tf99n/GrVFHs3/M/6+QXXYq7Jf9r/AL7P+NGyX/a/
+77P+NWqKPZv+Z/18guuxV2S/7X/fZ/xo2S/7X/fZ/wAatUUezf8AM/6+QXXYq7Jf9r/vs/40uyX/
+AGv++z/jVmij2b/mf9fILrsV442EikrgDPerFFFVCHJfW9wbuFFFFWIKKKKACiiigAooooAKKKKA
+CiiigAooooAWiiigAooooAKKKKACiiigAooooAKKKKAGp9xfpS0UUARvPHG21ic4zwCab9qi9W/7
+4P8AhRRXJOvKMmkbxppq4faovVv++D/hR9qi9W/74P8AhRRUfWZj9lEPtUXq3/fB/wAKPtUXq3/f
+B/wooo+szD2UQ+1Rerf98H/Cj7VF6t/3wf8ACiij6zMPZRD7VF6t/wB8H/Cj7VF6t/3wf8KKKPrM
+w9lEPtUXq3/fB/wo+1Rerf8AfB/wooo+szD2UQ+1Rerf98H/AAo+1Rerf98H/Ciij6zMPZRD7VF6
+t/3wf8KPtUXq3/fB/wAKKKPrMw9lEPtUXq3/AHwf8KPtUXq3/fB/wooo+szD2UQ+1Rerf98H/Cj7
+VF6t/wB8H/Ciij6zMPZRD7VF6t/3wf8ACj7VF6t/3wf8KKKPrMw9lEPtUXq3/fB/wo+1Rerf98H/
+AAooo+szD2UQ+1Rerf8AfB/wo+1Rerf98H/Ciij6zMPZRJI5FkBKHIBx0xTqKK64S5opsxkrOwUU
+UVZIUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
+			</helperscreenshot>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{LShiftKey down}@{LShiftKey up}123.pl"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="7c4cbadd-c88f-44ca-b4fd-44dfdca94969">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="57f9edc5-f8ab-4d73-9d0c-449ced54cf1b"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="inputtag"
+				rect="2046,722,271,27"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						is_required validate account_input form-control
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						email_create
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						account_input form-control is_required validate
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						email_create
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-validate"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='automationpractice.com']//input[#'email_create']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="00befc80-dde2-4d24-a90b-9690d16759ff">
+				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
+KKACiiigAooooAKKKKAP/9k=
+			</helperscreenshot>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="323;43"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="9aac0c6d-48ed-42d9-a2b6-f01851d2cebb"
+		sx="2369"
+		sy="740"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e2faa140-3e10-4ff0-8d1f-e6d872c3528c"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="2"
+				prefcap="divtag"
+				rect="2046,697,532,52"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-group
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						form-group
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='automationpractice.com']//form[#'create-account_form']/div/div[2]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="a12ac0e9-d993-4095-a920-8e683c63c5f6">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAE9AfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigBvzeo/Kj5vUflS0UAJ83qPyo+b1H5UtFACfN6j8qPm9R+VLRQAnzeo/Kj5vUfl
+S0UAJ83qPyo+b1H5UtFACfN6j8qPm9R+VLRQAnzeo/Kj5vUflS0UAJ83qPyo+b1H5UtFACfN6j8q
+Pm9R+VLRQAnzeo/Kj5vUflS0UAJ83qPyo+b1H5UtFACfN6j8qPm9R+VLRQAnzeo/Kj5vUflS0UAJ
+83qPyo+b1H5UtFACfN6j8qPm9R+VLRQAnzeo/Kj5vUflS0UAJ83qPyo+b1H5UtFACfN6j8qPm9R+
+VLRQAnzeo/Kj5vUflS0UAJ83qPyo+b1H5UtFACfN6j8qPm9R+VLRQAnzeo/Kj5vUflS0UAJ83qPy
+o+b1H5UtFACfN6j8qPm9R+VLRQAnzeo/Kj5vUflS0UAJ83qPyo+b1H5UtFACfN6j8qPm9R+VLRQA
+nzeo/Kj5vUflS0UAJ83qPyo+b1H5UtFACfN6j8qPm9R+VLRQAnzeo/Kj5vUflS0UAJ83qPyopaKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKpwSzJetbSyCYbN24Lgj2OKr2s8swDPqCI24jyyq560AalFU7+eZCkVs
+cSEFjxngCpMyXVvHJBN5W4ZJ2hvw5oAsUVQsDdTDzZLnKhiCuwc496itZ5ZgGfUERtxHllVz1oA1
+KKKz4LuV7z5j+4kZkj47j/HmgDQorPvLqaC9XYcxKm51x2zjNTyTt9rtlRv3cgYn344oAs0U13Ea
+M7cBRk1TsLiaSQpcHl1EicYwD2oAvUVS8y4up5EgkEMcR2ltu4sfxp00s1tAilllmdtqnGB+NAFu
+iq8MVykgaW5Ei918sD9ahie6vA0sUwhjyQo2Bifc5oAvUVnm7mFpchiBPBxuA4PoasXErpp7SqcO
+EznHegCxRWfdXFwi2phILOpZhgfNgA/41LNdFo7aSFsLJIAeO3pQBborPuftcU8Srd8SuR/qx8tX
+YVdIwJJPMb+9txQA+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAKVtD9ku3iSM+VINysBnafQmq
+9mUiQLLZSmTeTv8AJz39a1aKAM8QXE95LOsjQY/drlM5H41JpySQCS3kBIRsq2MAg1cooAqaajJb
+MHUqd7HBGO9VbMpEgWWylMm8nf5Oe/rWrRQBDeO6WshiVmcjChRnk1RksLiO0XZPv8rDqgQdfr1r
+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
+Muv+glN+v+NadFHIg+sVP6SMz+zLr/oJTfr/AI0f2Zdf9BKb9f8AGtOijkQfWKn9JGZ/Zl1/0Epv
+1/xo/sy6/wCglN+v+NadFHIg+sVP6SMz+zLr/oJTfr/jR/Zl1/0Epv1/xrToo5EH1ip/SRmf2Zdf
+9BKb9f8AGj+zLr/oJTfr/jWnRRyIPrFT+kjM/sy6/wCglN+v+NH9mXX/AEEpv1/xrToo5EH1ip/S
+Rmf2Zdf9BKb9f8aK06KORB9Yqf0kV2s7ds5Qgl9+QxB3dM5BpUs7dAgWPATdt5PGetLuk/55P+n+
+NG6T/nk/6f41djnuL5EX2f7Ps/dbdu3PamLZWwDjYT5gAbcxOcdOpp26T/nk/wCn+NG6T/nk/wCn
++NFguNFnbgSDZnzAA+5iScdOTR9it9sgKE+ZjfliScdOc07dJ/zyf9P8aN0n/PJ/0/xp2C4TW0Mz
+bpEycYOCRkehx1H1pHtIJH3snJxkBiAcdMgcH8aXdJ/zyf8AT/GjdJ/zyf8AT/GlYLiG1gMvmbDn
+duxuOM+uOmanzUO6T/nk/wCn+NG6T/nk/wCn+NFguTZozUO6T/nk/wCn+NG6T/nk/wCn+NFguTZo
+zUO6T/nk/wCn+NG6T/nk/wCn+NFguTZozUO6T/nk/wCn+NG6T/nk/wCn+NFguTZozUO6T/nk/wCn
++NG6T/nk/wCn+NFguTZozUO6T/nk/wCn+NG6T/nk/wCn+NFguTZozUO6T/nk/wCn+NG6T/nk/wCn
++NFguTZozUO6T/nk/wCn+NG6T/nk/wCn+NFguTZozUO6T/nk/wCn+NG6T/nk/wCn+NFguTZozUO6
+T/nk/wCn+NG6T/nk/wCn+NFguTZozUO6T/nk/wCn+NG6T/nk/wCn+NFguTZoqHdJ/wA8n/T/ABo8
+xlxujYDIGeP8aLBcmopAaWkMKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAYJcg4RiQcFcc0olTy95yBnGMc59KYhVYzkSMWPzHaQf8ahYO
+qKACOW2Z6+349aALHm4IDIyZ6E4/pSmVPNEecsfTtVZlXcdqFFKgZIwOvJqw4PnxkDjnJoABKCwU
+qy5zgkdaVJQzbSrKcZGe4qNG8yXcyuMZ2rtP5k0Kcz71VwNp3bgfyH/1qAJ6arhmYDPynBqtKFaa
+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
+xsUUUV65wBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQBj0Vo/ZIf7rf8AfZ/xo+yQ/wB1v++z/jXB9Vl3Or28
+exnUVo/ZIf7rf99n/Gj7JD/db/vs/wCNH1WXcPbx7GdRWj9kh/ut/wB9n/Gj7JD/AHW/77P+NH1W
+XcPbx7GdRWj9kh/ut/32f8aPskP91v8Avs/40fVZdw9vHsZ1FaP2SH+63/fZ/wAaPskP91v++z/j
+R9Vl3D28exnUVo/ZIf7rf99n/Gj7JD/db/vs/wCNH1WXcPbx7GdRWj9kh/ut/wB9n/Gj7JD/AHW/
+77P+NH1WXcPbx7GdRWj9kh/ut/32f8aPskP91v8Avs/40fVZdw9vHsZ1FaP2SH+63/fZ/wAaPskP
+91v++z/jR9Vl3D28exnUVo/ZIf7rf99n/Gj7JD/db/vs/wCNH1WXcPbx7GdRWj9kh/ut/wB9n/Gj
+7JD/AHW/77P+NH1WXcPbx7GdR2P0P8q0fskP91v++z/jR9kg/ut/32f8aPqsu4e3iT0UUV3nKFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRSYb1H5UYb1H5UALRSYb1H5UYb1H5UALRSYb1H5UYb1H5UALRSYb1H5UYb1H5UALRSYb1H5UY
+b1H5UALRSYb1H5UYb1H5UALRSYb1H5UYb1H5UALRSYb1H5UYb1H5UALRSYb1H5UYb1H5UALRSYb1
+H5UYb1H5UALRSYb1H5UYb1H5UALRSYb1H5UYb1H5UALRSYb1H5UYb1H5UALRSYb1H5UYb1H5UALR
+SYb1H5UYb1H5UALRSYb1H5UYb1H5UALRSYb1H5UYb1H5UALRSYb1H5UYb1H5UALRSYb1H5UYb1H5
+UALRSYb1H5UYb1H5UALRSYb1H5UYb1H5UALRSYb1H5UYb1H5UALRSYb1H5UYb1H5UALRSYb1H5UY
+b1H5UALRSYb1H5UYb1H5UALRSYb1H5UYb1H5UALRSYb1H5UYb1H5UALRSYb1H5UYb1H5UALRSYb1
+H5UYb1H5UALRSYb1H5UYb1H5UALRSYb1H5UYb1H5UALRSYb1H5UUAf/Z
+			</helperscreenshot>
+		</mouseitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="e2b1d193-b10d-4e65-8167-9784cca33203">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="57f9edc5-f8ab-4d73-9d0c-449ced54cf1b"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="inputtag"
+				rect="2046,722,271,27"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						is_required validate account_input form-control
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						email_create
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						account_input form-control is_required validate
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						123@123.pl
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						email_create
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						123@123.pl
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-validate"
+					readonly="False"
+					type="System.String">
+						isEmail
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='automationpractice.com']//input[#'email_create']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="6365a90e-ba6c-4ffc-bbb4-5efa00136592">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABIAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAan3F+lLSJ9xfpS0AUryZ0vIoxLIiMjE+Wm45GPY0/wC1LF5S
+HzpXl3bdyhSceoOMU6a3ke5SeKRUZFK4ZNwOfxHpQbd3nhlkkUtFu+6mAc/iaAGQ6hHM0YCSKJc7
+SwGCR1HWmnUI3EyLvjkSMvyASMe2f0OKE0/YsC+af3Rc5C4zuz+XWmR6YyLtMykCFogBHjg9+vWg
+ZJaTySXJRnLJ5KMMgDk5yafLfRwzrE6uNxChuMEn8cn8BRb2vkS79+792qYxjp3qKTT2aZ3EwCvI
+shGzJyO2c9KOohLi+JKCEOB56xl8DB55FFxfElBCHA89Yy+Bg88inGwbIVZsRiYShdnOc5xnPSg2
+DZCrNiMTCULs5znOM56UIB/2+MCRvLk2xsUJwOWzjA5oe/ijiZ3V1KsEKHGQT75x+tNawVreaJnz
+5khkB29DnOMd6BY4gZAYQWYMQIV28dsf/XoAc98kccbNHIGkYqEIAOfxOP1qxG/mRq+1lyM4YYI+
+tU104LbiIOhG8sVaPcnPYAnI/OrNpALa3SEMW29zQBLRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAtFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUANT7i/SlpE+4v0paAMca4xHFoT9H/APrUv9tv/wA+bf8Aff8A9am6
+D/q5vqK1cgEDIyelZLmavcwi5NXuZn9tv/z5t/33/wDWo/tt/wDnzb/vv/61aQdCxUOpYdRnmhXR
+iQrKSOoB6U9e5XvdzN/tt/8Anzb/AL7/APrUf22//Pm3/ff/ANatFpI0OGdVPoTinE4GTRr3D3u5
+mf22/wDz5t/33/8AWo/tt/8Anzb/AL7/APrVotIigFnUZ6ZPWlZ0UgMygnoCetHvdw97uZv9tv8A
+8+bf99//AFqP7bf/AJ82/wC+/wD61adBIGMkDPSi0u4e93Mz+23/AOfNv++//rUf22//AD5t/wB9
+/wD1q06KLS7h73czP7bf/nzb/vv/AOtR/bb/APPm3/ff/wBatOii0u4e93Mz+23/AOfNv++//rUf
+22//AD5t/wB9/wD1q06KLS7h73czP7bf/nzb/vv/AOtR/bb/APPm3/ff/wBatOii0u4e93Mz+23/
+AOfNv++//rUf22//AD5t/wB9/wD1q06KLS7h73czP7bf/nzb/vv/AOtR/bb/APPm3/ff/wBatOii
+0u4e93Mz+23/AOfNv++//rUf22//AD5t/wB9/wD1q06KLS7h73czP7bf/nzb/vv/AOtR/bb/APPm
+3/ff/wBatOii0u4e93Mz+23/AOfNv++//rUf22//AD5t/wB9/wD1q06KLS7h73czP7bf/nzb/vv/
+AOtR/bb/APPm3/ff/wBatOii0u4e93Mz+23/AOfNv++//rUf22//AD5t/wB9/wD1q06KLS7h73cz
+P7bf/nzb/vv/AOtR/bb/APPm3/ff/wBatJmCKWY4A6mkilSZNyHIo97uHvdypa6o091HC1sY94JB
+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
+H//Z
+			</helperscreenshot>
+			<matchname>
+				Class
+			</matchname>
+			<matchvalue>
+				is_required validate account_input form-control
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="dceeead1-59a2-43b4-ba82-26c9499db86e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="57f9edc5-f8ab-4d73-9d0c-449ced54cf1b"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="inputtag"
+				rect="2046,722,271,27"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						is_required validate account_input form-control
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						email_create
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						account_input form-control is_required validate
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						123@123.pl
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						email_create
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						123@123.pl
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-validate"
+					readonly="False"
+					type="System.String">
+						isEmail
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='automationpractice.com']//input[#'email_create']
+				</path>
+			</info>
+			<matchname>
+				Id
+			</matchname>
+			<matchvalue>
+				email_create
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="a82deda2-3fcc-400f-8315-e5227e09d36a">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="57f9edc5-f8ab-4d73-9d0c-449ced54cf1b"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="inputtag"
+				rect="2046,722,271,27"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						is_required validate account_input form-control
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						email_create
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						account_input form-control is_required validate
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						123@123.pl
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						email_create
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						123@123.pl
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-validate"
+					readonly="False"
+					type="System.String">
+						isEmail
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='automationpractice.com']//input[#'email_create']
+				</path>
+			</info>
+			<matchname>
+				SafeClass
+			</matchname>
+			<matchvalue>
+				account_input form-control is_required validate
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="84c76c3b-efde-4bb8-8b6d-c4dd7f2e7101">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="57f9edc5-f8ab-4d73-9d0c-449ced54cf1b"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="inputtag"
+				rect="2046,722,271,27"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						is_required validate account_input form-control
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						email_create
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						account_input form-control is_required validate
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						123@123.pl
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						email_create
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						123@123.pl
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-validate"
+					readonly="False"
+					type="System.String">
+						isEmail
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='automationpractice.com']//input[#'email_create']
+				</path>
+			</info>
+			<matchname>
+				TagName
+			</matchname>
+			<matchvalue>
+				input
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="2e3b6fd7-6881-4c34-a365-e20c19435a2f">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="57f9edc5-f8ab-4d73-9d0c-449ced54cf1b"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="inputtag"
+				rect="2046,722,271,27"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						is_required validate account_input form-control
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						email_create
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						account_input form-control is_required validate
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						123@123.pl
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						email_create
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						123@123.pl
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-validate"
+					readonly="False"
+					type="System.String">
+						isEmail
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='automationpractice.com']//input[#'email_create']
+				</path>
+			</info>
+			<matchname>
+				TagValue
+			</matchname>
+			<matchvalue>
+				123@123.pl
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeContains"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="ecd375e5-2e3c-4096-8637-ae7381f2d6ae">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="57f9edc5-f8ab-4d73-9d0c-449ced54cf1b"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="inputtag"
+				rect="2046,722,271,27"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						is_required validate account_input form-control
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						email_create
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						account_input form-control is_required validate
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						123@123.pl
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						email_create
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						123@123.pl
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-validate"
+					readonly="False"
+					type="System.String">
+						isEmail
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='automationpractice.com']//input[#'email_create']
+				</path>
+			</info>
+			<matchname>
+				Value
+			</matchname>
+			<matchvalue>
+				@
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="b34ca9bb-6d54-489c-b2ac-fe86fc90194c"
+	name="TAU_Selenium_WebDriverRepository"
+	relativepath="TAU_Selenium_WebDriverRepository.rxrep">
+		<codegen
+		classname="TAU_Selenium_WebDriverRepository"
+		namespace="TAU_Selenium_WebDriver">
+		</codegen>
+		<rootfolder
+		id="7826df47-3df0-4357-b90e-85b43d1dbcdc"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ValidationOfRegistrationForm.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

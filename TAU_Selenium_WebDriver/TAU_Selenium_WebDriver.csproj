@@ -163,6 +163,18 @@
       <UserCode>true</UserCode>
       <id>554c99dd-a382-40bc-9567-548508c55740</id>
     </Compile>
+    <Compile Include="FailedRegistration.cs">
+      <BoundTo>d2e9ffd8-702e-4404-b9c1-66ed93e36606</BoundTo>
+      <DependentUpon>FailedRegistration.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3d097fc7-6244-4988-ab86-7907a4b98c73</id>
+    </Compile>
+    <Compile Include="FailedRegistration.UserCode.cs">
+      <BoundTo>d2e9ffd8-702e-4404-b9c1-66ed93e36606</BoundTo>
+      <DependentUpon>FailedRegistration.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6d0b8f34-e19a-4f67-b3d6-05955c10db54</id>
+    </Compile>
     <Compile Include="FormFieldValidation.cs">
       <BoundTo>9c804f41-d8f9-4679-8873-5ae8537f1f0b</BoundTo>
       <DependentUpon>FormFieldValidation.rxrec</DependentUpon>
@@ -186,6 +198,18 @@
       <DependentUpon>FormFieldValidationWrongEmail.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>3117eaa4-4e55-4523-9383-054f5465bcbe</id>
+    </Compile>
+    <Compile Include="FormValidation.cs">
+      <BoundTo>c80a2961-563c-47f2-89d3-ce9d463625d4</BoundTo>
+      <DependentUpon>FormValidation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c00204a0-e54a-41f4-86e3-12e438e5dc5d</id>
+    </Compile>
+    <Compile Include="FormValidation.UserCode.cs">
+      <BoundTo>c80a2961-563c-47f2-89d3-ce9d463625d4</BoundTo>
+      <DependentUpon>FormValidation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e72feffa-68f6-4583-87a4-3fc043764ee2</id>
     </Compile>
     <Compile Include="OpenBrowser.cs">
       <BoundTo>39b4208b-da24-476c-a46f-bbc20d1db194</BoundTo>
@@ -219,6 +243,18 @@
       <DependentUpon>TAU_Selenium_WebDriverRepository.rxrep</DependentUpon>
       <RepositoryCode>true</RepositoryCode>
       <id>d8763f14-d1c1-4d86-9ab6-22de99d24453</id>
+    </Compile>
+    <Compile Include="ValidationOfRegistrationForm.cs">
+      <BoundTo>a62e382b-fcad-49a9-bd10-d52868f4f770</BoundTo>
+      <DependentUpon>ValidationOfRegistrationForm.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bed0c7a6-5a3e-451e-93d3-5fee6cee8ed6</id>
+    </Compile>
+    <Compile Include="ValidationOfRegistrationForm.UserCode.cs">
+      <BoundTo>a62e382b-fcad-49a9-bd10-d52868f4f770</BoundTo>
+      <DependentUpon>ValidationOfRegistrationForm.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>be2cd718-c5a9-458f-99c6-70367440f48e</id>
     </Compile>
     <Compile Include="WebsiteValidationAndFunctions.cs">
       <BoundTo>af882789-ca82-45aa-8f06-d5c847856718</BoundTo>
@@ -258,6 +294,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="TAU_Selenium_WebDriver_Practice_Website.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>6a14f8f6-53d1-4d4f-b4c2-c933cf2ec571</id>
+    </Content>
     <None Include="app.config">
       <id>ac241f3b-6b1f-4aac-a2d7-0147e05211fe</id>
     </None>
@@ -271,6 +311,11 @@
       <id>b478d927-2660-4d54-a097-14154fb86171</id>
       <recordtableid>5e1e0eb3-c91f-437a-bb83-bb2f1531b254</recordtableid>
     </None>
+    <None Include="FailedRegistration.rxrec">
+      <BoundTo>73e5243c-de9e-4655-89c4-9c7830fcb30e</BoundTo>
+      <id>d2e9ffd8-702e-4404-b9c1-66ed93e36606</id>
+      <recordtableid>e7dfe7d8-baea-4e5b-88a6-c067343d4633</recordtableid>
+    </None>
     <None Include="FormFieldValidation.rxrec">
       <BoundTo>73e5243c-de9e-4655-89c4-9c7830fcb30e</BoundTo>
       <id>9c804f41-d8f9-4679-8873-5ae8537f1f0b</id>
@@ -280,6 +325,11 @@
       <BoundTo>73e5243c-de9e-4655-89c4-9c7830fcb30e</BoundTo>
       <id>553ce59b-26b3-4d1f-8bd3-49cbda094eec</id>
       <recordtableid>3f6bac90-f065-4300-b4c7-fa1a9e0726af</recordtableid>
+    </None>
+    <None Include="FormValidation.rxrec">
+      <BoundTo>73e5243c-de9e-4655-89c4-9c7830fcb30e</BoundTo>
+      <id>c80a2961-563c-47f2-89d3-ce9d463625d4</id>
+      <recordtableid>4a769d4d-5213-4e7b-835d-5de7d68ba3fe</recordtableid>
     </None>
     <None Include="OpenBrowser.rxrec">
       <BoundTo>73e5243c-de9e-4655-89c4-9c7830fcb30e</BoundTo>
@@ -291,6 +341,10 @@
       <id>06f39c27-db1a-4ccf-be8a-807ffbecf990</id>
       <recordtableid>02235ae1-2a3d-489f-a870-bfeb843d04a4</recordtableid>
     </None>
+    <Content Include="TAU_Selenium_WebDriver.rxsqc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>0c93d907-aa9b-4e36-9b8c-ed5441fd78c4</id>
+    </Content>
     <None Include="TAU_Selenium_WebDriverRepository.rximg">
       <BoundTo>73e5243c-de9e-4655-89c4-9c7830fcb30e</BoundTo>
       <DependentUpon>TAU_Selenium_WebDriverRepository.rxrep</DependentUpon>
@@ -301,6 +355,11 @@
       <id>73e5243c-de9e-4655-89c4-9c7830fcb30e</id>
       <repoid>b34ca9bb-6d54-489c-b2ac-fe86fc90194c</repoid>
       <reporootid>7826df47-3df0-4357-b90e-85b43d1dbcdc</reporootid>
+    </None>
+    <None Include="ValidationOfRegistrationForm.rxrec">
+      <BoundTo>73e5243c-de9e-4655-89c4-9c7830fcb30e</BoundTo>
+      <id>a62e382b-fcad-49a9-bd10-d52868f4f770</id>
+      <recordtableid>a40b003f-9988-4fa0-8862-ea267246bd25</recordtableid>
     </None>
     <None Include="WebsiteValidationAndFunctions.rxrec">
       <BoundTo>73e5243c-de9e-4655-89c4-9c7830fcb30e</BoundTo>

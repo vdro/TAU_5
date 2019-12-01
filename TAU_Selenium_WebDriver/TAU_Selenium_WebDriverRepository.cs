@@ -30,6 +30,7 @@ namespace TAU_Selenium_WebDriver
         TAU_Selenium_WebDriverRepositoryFolders.ApplicationUnderTestAppFolder _applicationundertest;
         TAU_Selenium_WebDriverRepositoryFolders.BioptronZepterGdanskBioptronZepterAppFolder _bioptronzeptergdanskbioptronzepter;
         TAU_Selenium_WebDriverRepositoryFolders.INKUBITMicrosoftDynamics365CRMConAppFolder _inkubitmicrosoftdynamics365crmcon;
+        TAU_Selenium_WebDriverRepositoryFolders.LoginMyStoreAppFolder _loginmystore;
 
         /// <summary>
         /// Gets the singleton class instance representing the TAU_Selenium_WebDriverRepository element repository.
@@ -49,6 +50,7 @@ namespace TAU_Selenium_WebDriver
             _applicationundertest = new TAU_Selenium_WebDriverRepositoryFolders.ApplicationUnderTestAppFolder(this);
             _bioptronzeptergdanskbioptronzepter = new TAU_Selenium_WebDriverRepositoryFolders.BioptronZepterGdanskBioptronZepterAppFolder(this);
             _inkubitmicrosoftdynamics365crmcon = new TAU_Selenium_WebDriverRepositoryFolders.INKUBITMicrosoftDynamics365CRMConAppFolder(this);
+            _loginmystore = new TAU_Selenium_WebDriverRepositoryFolders.LoginMyStoreAppFolder(this);
         }
 
 #region Variables
@@ -92,6 +94,15 @@ namespace TAU_Selenium_WebDriver
         public virtual TAU_Selenium_WebDriverRepositoryFolders.INKUBITMicrosoftDynamics365CRMConAppFolder INKUBITMicrosoftDynamics365CRMCon
         {
             get { return _inkubitmicrosoftdynamics365crmcon; }
+        }
+
+        /// <summary>
+        /// The LoginMyStore folder.
+        /// </summary>
+        [RepositoryFolder("a4d61784-17fa-4817-a3b2-5f97d6ba4841")]
+        public virtual TAU_Selenium_WebDriverRepositoryFolders.LoginMyStoreAppFolder LoginMyStore
+        {
+            get { return _loginmystore; }
         }
     }
 
@@ -1242,6 +1253,617 @@ namespace TAU_Selenium_WebDriver
                 get
                 {
                     return _messageInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The LoginMyStoreAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("a4d61784-17fa-4817-a3b2-5f97d6ba4841")]
+        public partial class LoginMyStoreAppFolder : RepoGenBaseFolder
+        {
+            TAU_Selenium_WebDriverRepositoryFolders.AccountCreationFormFolder _accountcreationform;
+            RepoItemInfo _emailcreateInfo;
+            RepoItemInfo _formgroupInfo;
+            RepoItemInfo _spantagcreateanaccountInfo;
+            RepoItemInfo _customerfirstnameInfo;
+            RepoItemInfo _customerlastnameInfo;
+            RepoItemInfo _passwdInfo;
+            RepoItemInfo _cityInfo;
+            RepoItemInfo _idstateInfo;
+            RepoItemInfo _postcodeInfo;
+            RepoItemInfo _phoneInfo;
+            RepoItemInfo _phonemobileInfo;
+            RepoItemInfo _aliasInfo;
+            RepoItemInfo _registerInfo;
+            RepoItemInfo _myaccountInfo;
+            RepoItemInfo _columnscontainerInfo;
+            RepoItemInfo _thereare8errorsInfo;
+            RepoItemInfo _alertalertdangerInfo;
+
+            /// <summary>
+            /// Creates a new LoginMyStore  folder.
+            /// </summary>
+            public LoginMyStoreAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("LoginMyStore", "/dom[@domain='automationpractice.com']", parentFolder, 30000, null, false, "a4d61784-17fa-4817-a3b2-5f97d6ba4841", "")
+            {
+                _accountcreationform = new TAU_Selenium_WebDriverRepositoryFolders.AccountCreationFormFolder(this);
+                _emailcreateInfo = new RepoItemInfo(this, "EmailCreate", ".//input[#'email_create']", 30000, null, "57f9edc5-f8ab-4d73-9d0c-449ced54cf1b");
+                _formgroupInfo = new RepoItemInfo(this, "FormGroup", ".//form[#'create-account_form']/div/div[2]", 30000, null, "e2faa140-3e10-4ff0-8d1f-e6d872c3528c");
+                _spantagcreateanaccountInfo = new RepoItemInfo(this, "SpanTagCreateAnAccount", ".//button[#'SubmitCreate']/span[@innertext>'Create an account']", 30000, null, "71fb0231-f9c1-48be-ab98-d9a92c3fc907");
+                _customerfirstnameInfo = new RepoItemInfo(this, "CustomerFirstname", ".//input[#'customer_firstname']", 30000, null, "276f38f7-27ab-403d-af63-386b27ab74d0");
+                _customerlastnameInfo = new RepoItemInfo(this, "CustomerLastname", ".//input[#'customer_lastname']", 30000, null, "74654fde-7962-431c-a9ea-b84cf0008377");
+                _passwdInfo = new RepoItemInfo(this, "Passwd", ".//input[#'passwd']", 30000, null, "7814ffdf-0518-47a6-a696-bb6106ee8343");
+                _cityInfo = new RepoItemInfo(this, "City", ".//input[#'city']", 30000, null, "e5d8d47c-d0fe-4842-acc1-2cf9bab6711f");
+                _idstateInfo = new RepoItemInfo(this, "IdState", ".//select[#'id_state']", 30000, null, "95a15c2e-bb09-43af-a2d7-4c7b5e695570");
+                _postcodeInfo = new RepoItemInfo(this, "Postcode", ".//input[#'postcode']", 30000, null, "24b48856-e3bd-4878-b6f8-5eceb77473cd");
+                _phoneInfo = new RepoItemInfo(this, "Phone", ".//input[#'phone']", 30000, null, "89201515-a449-4511-a961-896bbb23a636");
+                _phonemobileInfo = new RepoItemInfo(this, "PhoneMobile", ".//input[#'phone_mobile']", 30000, null, "e59e1b5f-4729-45e5-8044-9276e8f27353");
+                _aliasInfo = new RepoItemInfo(this, "Alias", ".//input[#'alias']", 30000, null, "7529f4c8-dbe8-421d-b449-2f56cd3f6543");
+                _registerInfo = new RepoItemInfo(this, "Register", ".//button[#'submitAccount']/span[@innertext='Register']", 30000, null, "3f1f15d4-c19b-42a2-b0da-1c47bf89133e");
+                _myaccountInfo = new RepoItemInfo(this, "MyAccount", ".//div[#'center_column']/h1[@innertext='My account']", 30000, null, "9e554286-1e58-4913-aefa-0419c52ae419");
+                _columnscontainerInfo = new RepoItemInfo(this, "ColumnsContainer", ".//div[#'page']/div[2]", 30000, null, "9c22d85a-25b6-470b-a666-a5075e7ffca1");
+                _thereare8errorsInfo = new RepoItemInfo(this, "ThereAre8Errors", ".//div[#'center_column']/?/?/p[@innertext='There are 8 errors']", 30000, null, "5033b500-476b-415d-80e5-f5f1102881fd");
+                _alertalertdangerInfo = new RepoItemInfo(this, "AlertAlertDanger", ".//div[#'center_column']/div", 30000, null, "a412857e-4385-4fd8-b082-a0cf7584623f");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("a4d61784-17fa-4817-a3b2-5f97d6ba4841")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("a4d61784-17fa-4817-a3b2-5f97d6ba4841")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The EmailCreate item.
+            /// </summary>
+            [RepositoryItem("57f9edc5-f8ab-4d73-9d0c-449ced54cf1b")]
+            public virtual Ranorex.InputTag EmailCreate
+            {
+                get
+                {
+                    return _emailcreateInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The EmailCreate item info.
+            /// </summary>
+            [RepositoryItemInfo("57f9edc5-f8ab-4d73-9d0c-449ced54cf1b")]
+            public virtual RepoItemInfo EmailCreateInfo
+            {
+                get
+                {
+                    return _emailcreateInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FormGroup item.
+            /// </summary>
+            [RepositoryItem("e2faa140-3e10-4ff0-8d1f-e6d872c3528c")]
+            public virtual Ranorex.DivTag FormGroup
+            {
+                get
+                {
+                    return _formgroupInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FormGroup item info.
+            /// </summary>
+            [RepositoryItemInfo("e2faa140-3e10-4ff0-8d1f-e6d872c3528c")]
+            public virtual RepoItemInfo FormGroupInfo
+            {
+                get
+                {
+                    return _formgroupInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SpanTagCreateAnAccount item.
+            /// </summary>
+            [RepositoryItem("71fb0231-f9c1-48be-ab98-d9a92c3fc907")]
+            public virtual Ranorex.SpanTag SpanTagCreateAnAccount
+            {
+                get
+                {
+                    return _spantagcreateanaccountInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SpanTagCreateAnAccount item info.
+            /// </summary>
+            [RepositoryItemInfo("71fb0231-f9c1-48be-ab98-d9a92c3fc907")]
+            public virtual RepoItemInfo SpanTagCreateAnAccountInfo
+            {
+                get
+                {
+                    return _spantagcreateanaccountInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CustomerFirstname item.
+            /// </summary>
+            [RepositoryItem("276f38f7-27ab-403d-af63-386b27ab74d0")]
+            public virtual Ranorex.InputTag CustomerFirstname
+            {
+                get
+                {
+                    return _customerfirstnameInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CustomerFirstname item info.
+            /// </summary>
+            [RepositoryItemInfo("276f38f7-27ab-403d-af63-386b27ab74d0")]
+            public virtual RepoItemInfo CustomerFirstnameInfo
+            {
+                get
+                {
+                    return _customerfirstnameInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CustomerLastname item.
+            /// </summary>
+            [RepositoryItem("74654fde-7962-431c-a9ea-b84cf0008377")]
+            public virtual Ranorex.InputTag CustomerLastname
+            {
+                get
+                {
+                    return _customerlastnameInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CustomerLastname item info.
+            /// </summary>
+            [RepositoryItemInfo("74654fde-7962-431c-a9ea-b84cf0008377")]
+            public virtual RepoItemInfo CustomerLastnameInfo
+            {
+                get
+                {
+                    return _customerlastnameInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Passwd item.
+            /// </summary>
+            [RepositoryItem("7814ffdf-0518-47a6-a696-bb6106ee8343")]
+            public virtual Ranorex.InputTag Passwd
+            {
+                get
+                {
+                    return _passwdInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Passwd item info.
+            /// </summary>
+            [RepositoryItemInfo("7814ffdf-0518-47a6-a696-bb6106ee8343")]
+            public virtual RepoItemInfo PasswdInfo
+            {
+                get
+                {
+                    return _passwdInfo;
+                }
+            }
+
+            /// <summary>
+            /// The City item.
+            /// </summary>
+            [RepositoryItem("e5d8d47c-d0fe-4842-acc1-2cf9bab6711f")]
+            public virtual Ranorex.InputTag City
+            {
+                get
+                {
+                    return _cityInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The City item info.
+            /// </summary>
+            [RepositoryItemInfo("e5d8d47c-d0fe-4842-acc1-2cf9bab6711f")]
+            public virtual RepoItemInfo CityInfo
+            {
+                get
+                {
+                    return _cityInfo;
+                }
+            }
+
+            /// <summary>
+            /// The IdState item.
+            /// </summary>
+            [RepositoryItem("95a15c2e-bb09-43af-a2d7-4c7b5e695570")]
+            public virtual Ranorex.SelectTag IdState
+            {
+                get
+                {
+                    return _idstateInfo.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The IdState item info.
+            /// </summary>
+            [RepositoryItemInfo("95a15c2e-bb09-43af-a2d7-4c7b5e695570")]
+            public virtual RepoItemInfo IdStateInfo
+            {
+                get
+                {
+                    return _idstateInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Postcode item.
+            /// </summary>
+            [RepositoryItem("24b48856-e3bd-4878-b6f8-5eceb77473cd")]
+            public virtual Ranorex.InputTag Postcode
+            {
+                get
+                {
+                    return _postcodeInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Postcode item info.
+            /// </summary>
+            [RepositoryItemInfo("24b48856-e3bd-4878-b6f8-5eceb77473cd")]
+            public virtual RepoItemInfo PostcodeInfo
+            {
+                get
+                {
+                    return _postcodeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Phone item.
+            /// </summary>
+            [RepositoryItem("89201515-a449-4511-a961-896bbb23a636")]
+            public virtual Ranorex.InputTag Phone
+            {
+                get
+                {
+                    return _phoneInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Phone item info.
+            /// </summary>
+            [RepositoryItemInfo("89201515-a449-4511-a961-896bbb23a636")]
+            public virtual RepoItemInfo PhoneInfo
+            {
+                get
+                {
+                    return _phoneInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PhoneMobile item.
+            /// </summary>
+            [RepositoryItem("e59e1b5f-4729-45e5-8044-9276e8f27353")]
+            public virtual Ranorex.InputTag PhoneMobile
+            {
+                get
+                {
+                    return _phonemobileInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PhoneMobile item info.
+            /// </summary>
+            [RepositoryItemInfo("e59e1b5f-4729-45e5-8044-9276e8f27353")]
+            public virtual RepoItemInfo PhoneMobileInfo
+            {
+                get
+                {
+                    return _phonemobileInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Alias item.
+            /// </summary>
+            [RepositoryItem("7529f4c8-dbe8-421d-b449-2f56cd3f6543")]
+            public virtual Ranorex.InputTag Alias
+            {
+                get
+                {
+                    return _aliasInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Alias item info.
+            /// </summary>
+            [RepositoryItemInfo("7529f4c8-dbe8-421d-b449-2f56cd3f6543")]
+            public virtual RepoItemInfo AliasInfo
+            {
+                get
+                {
+                    return _aliasInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Register item.
+            /// </summary>
+            [RepositoryItem("3f1f15d4-c19b-42a2-b0da-1c47bf89133e")]
+            public virtual Ranorex.SpanTag Register
+            {
+                get
+                {
+                    return _registerInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Register item info.
+            /// </summary>
+            [RepositoryItemInfo("3f1f15d4-c19b-42a2-b0da-1c47bf89133e")]
+            public virtual RepoItemInfo RegisterInfo
+            {
+                get
+                {
+                    return _registerInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MyAccount item.
+            /// </summary>
+            [RepositoryItem("9e554286-1e58-4913-aefa-0419c52ae419")]
+            public virtual Ranorex.H1Tag MyAccount
+            {
+                get
+                {
+                    return _myaccountInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MyAccount item info.
+            /// </summary>
+            [RepositoryItemInfo("9e554286-1e58-4913-aefa-0419c52ae419")]
+            public virtual RepoItemInfo MyAccountInfo
+            {
+                get
+                {
+                    return _myaccountInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ColumnsContainer item.
+            /// </summary>
+            [RepositoryItem("9c22d85a-25b6-470b-a666-a5075e7ffca1")]
+            public virtual Ranorex.DivTag ColumnsContainer
+            {
+                get
+                {
+                    return _columnscontainerInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ColumnsContainer item info.
+            /// </summary>
+            [RepositoryItemInfo("9c22d85a-25b6-470b-a666-a5075e7ffca1")]
+            public virtual RepoItemInfo ColumnsContainerInfo
+            {
+                get
+                {
+                    return _columnscontainerInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ThereAre8Errors item.
+            /// </summary>
+            [RepositoryItem("5033b500-476b-415d-80e5-f5f1102881fd")]
+            public virtual Ranorex.PTag ThereAre8Errors
+            {
+                get
+                {
+                    return _thereare8errorsInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ThereAre8Errors item info.
+            /// </summary>
+            [RepositoryItemInfo("5033b500-476b-415d-80e5-f5f1102881fd")]
+            public virtual RepoItemInfo ThereAre8ErrorsInfo
+            {
+                get
+                {
+                    return _thereare8errorsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AlertAlertDanger item.
+            /// </summary>
+            [RepositoryItem("a412857e-4385-4fd8-b082-a0cf7584623f")]
+            public virtual Ranorex.DivTag AlertAlertDanger
+            {
+                get
+                {
+                    return _alertalertdangerInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AlertAlertDanger item info.
+            /// </summary>
+            [RepositoryItemInfo("a412857e-4385-4fd8-b082-a0cf7584623f")]
+            public virtual RepoItemInfo AlertAlertDangerInfo
+            {
+                get
+                {
+                    return _alertalertdangerInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AccountCreationForm folder.
+            /// </summary>
+            [RepositoryFolder("e8ae29b2-f571-4702-99a9-e27072b52599")]
+            public virtual TAU_Selenium_WebDriverRepositoryFolders.AccountCreationFormFolder AccountCreationForm
+            {
+                get { return _accountcreationform; }
+            }
+        }
+
+        /// <summary>
+        /// The AccountCreationFormFolder folder.
+        /// </summary>
+        [RepositoryFolder("e8ae29b2-f571-4702-99a9-e27072b52599")]
+        public partial class AccountCreationFormFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _address1Info;
+            RepoItemInfo _formgrouprequiredInfo;
+            RepoItemInfo _formgrouprequiredselectInfo;
+
+            /// <summary>
+            /// Creates a new AccountCreationForm  folder.
+            /// </summary>
+            public AccountCreationFormFolder(RepoGenBaseFolder parentFolder) :
+                    base("AccountCreationForm", ".//form[#'account-creation_form']", parentFolder, 30000, null, false, "e8ae29b2-f571-4702-99a9-e27072b52599", "")
+            {
+                _address1Info = new RepoItemInfo(this, "Address1", ".//input[@name='address1']", 30000, null, "ee415d58-d71c-4056-9247-4c57885ac23a");
+                _formgrouprequiredInfo = new RepoItemInfo(this, "FormGroupRequired", "div[2]/p[13]", 30000, null, "66520a52-b11f-454f-8d15-32a39d83df83");
+                _formgrouprequiredselectInfo = new RepoItemInfo(this, "FormGroupRequiredSelect", "div[2]/p[9]", 30000, null, "f844fea4-2283-46d3-b69b-5c2e326f73cb");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("e8ae29b2-f571-4702-99a9-e27072b52599")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("e8ae29b2-f571-4702-99a9-e27072b52599")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Address1 item.
+            /// </summary>
+            [RepositoryItem("ee415d58-d71c-4056-9247-4c57885ac23a")]
+            public virtual Ranorex.InputTag Address1
+            {
+                get
+                {
+                    return _address1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Address1 item info.
+            /// </summary>
+            [RepositoryItemInfo("ee415d58-d71c-4056-9247-4c57885ac23a")]
+            public virtual RepoItemInfo Address1Info
+            {
+                get
+                {
+                    return _address1Info;
+                }
+            }
+
+            /// <summary>
+            /// The FormGroupRequired item.
+            /// </summary>
+            [RepositoryItem("66520a52-b11f-454f-8d15-32a39d83df83")]
+            public virtual Ranorex.PTag FormGroupRequired
+            {
+                get
+                {
+                    return _formgrouprequiredInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FormGroupRequired item info.
+            /// </summary>
+            [RepositoryItemInfo("66520a52-b11f-454f-8d15-32a39d83df83")]
+            public virtual RepoItemInfo FormGroupRequiredInfo
+            {
+                get
+                {
+                    return _formgrouprequiredInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FormGroupRequiredSelect item.
+            /// </summary>
+            [RepositoryItem("f844fea4-2283-46d3-b69b-5c2e326f73cb")]
+            public virtual Ranorex.PTag FormGroupRequiredSelect
+            {
+                get
+                {
+                    return _formgrouprequiredselectInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FormGroupRequiredSelect item info.
+            /// </summary>
+            [RepositoryItemInfo("f844fea4-2283-46d3-b69b-5c2e326f73cb")]
+            public virtual RepoItemInfo FormGroupRequiredSelectInfo
+            {
+                get
+                {
+                    return _formgrouprequiredselectInfo;
                 }
             }
         }

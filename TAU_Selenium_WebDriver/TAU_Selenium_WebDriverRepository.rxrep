@@ -494,6 +494,248 @@ zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
 F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			</icon>
 		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="a4d61784-17fa-4817-a3b2-5f97d6ba4841"
+		isrooted="True"
+		name="LoginMyStore"
+		refimgid="a9d15d1d-ca96-4638-9f1d-1ef5b4f4324a"
+		refpath="/dom[@domain='automationpractice.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="57f9edc5-f8ab-4d73-9d0c-449ced54cf1b"
+			name="EmailCreate"
+			refimgid="bc0a664d-c428-4b8f-9c32-4b9213bfc75b"
+			refpath="/dom[@domain='automationpractice.com']//input[#'email_create']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//input[#'email_create']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="e2faa140-3e10-4ff0-8d1f-e6d872c3528c"
+			name="FormGroup"
+			refimgid="fcdd18a5-9795-4b19-bcac-ba6dfcd16e63"
+			refpath="/dom[@domain='automationpractice.com']//form[#'create-account_form']/div/div[2]"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//form[#'create-account_form']/div/div[2]
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="71fb0231-f9c1-48be-ab98-d9a92c3fc907"
+			name="SpanTagCreateAnAccount"
+			refimgid="c1d0e9ae-2c2d-41c3-8211-7f58024f043a"
+			refpath="/dom[@domain='automationpractice.com']//button[#'SubmitCreate']/span[@innertext>'Create an account']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//button[#'SubmitCreate']/span[@innertext&gt;'Create an account']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="276f38f7-27ab-403d-af63-386b27ab74d0"
+			name="CustomerFirstname"
+			refimgid="d4a8f588-9325-4eb9-b8fa-aad3a054f6b2"
+			refpath="/dom[@domain='automationpractice.com']//input[#'customer_firstname']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//input[#'customer_firstname']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="74654fde-7962-431c-a9ea-b84cf0008377"
+			name="CustomerLastname"
+			refimgid="8a9e1db8-41ab-4572-b348-1ce8bd3d2666"
+			refpath="/dom[@domain='automationpractice.com']//input[#'customer_lastname']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//input[#'customer_lastname']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="7814ffdf-0518-47a6-a696-bb6106ee8343"
+			name="Passwd"
+			refimgid="7f22d4b8-714a-4947-9a9c-f6d0246c4121"
+			refpath="/dom[@domain='automationpractice.com']//input[#'passwd']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//input[#'passwd']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="e5d8d47c-d0fe-4842-acc1-2cf9bab6711f"
+			name="City"
+			refimgid="a7dc7220-2bf8-4047-8576-eea877dc986d"
+			refpath="/dom[@domain='automationpractice.com']//input[#'city']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//input[#'city']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="95a15c2e-bb09-43af-a2d7-4c7b5e695570"
+			name="IdState"
+			refimgid="666ac039-e554-4633-b45d-6844ec5cbbb2"
+			refpath="/dom[@domain='automationpractice.com']//select[#'id_state']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//select[#'id_state']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="24b48856-e3bd-4878-b6f8-5eceb77473cd"
+			name="Postcode"
+			refimgid="ee65c54a-b965-41a1-bac1-e12703095e2e"
+			refpath="/dom[@domain='automationpractice.com']//input[#'postcode']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//input[#'postcode']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="89201515-a449-4511-a961-896bbb23a636"
+			name="Phone"
+			refimgid="c1e35ca6-31ec-4fd0-a3dc-0a1174a06eeb"
+			refpath="/dom[@domain='automationpractice.com']//input[#'phone']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//input[#'phone']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="e59e1b5f-4729-45e5-8044-9276e8f27353"
+			name="PhoneMobile"
+			refimgid="69802360-4ad3-44a8-ba0d-9309b772ee09"
+			refpath="/dom[@domain='automationpractice.com']//input[#'phone_mobile']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//input[#'phone_mobile']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="7529f4c8-dbe8-421d-b449-2f56cd3f6543"
+			name="Alias"
+			refimgid="6c4e8872-aaa5-4fa4-97ea-69437ffb76c4"
+			refpath="/dom[@domain='automationpractice.com']//input[#'alias']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//input[#'alias']
+			</item>
+			<folder
+			addcaps="unknown,webelement,formtag"
+			capname="form"
+			id="e8ae29b2-f571-4702-99a9-e27072b52599"
+			isrooted="True"
+			name="AccountCreationForm"
+			refpath="/dom[@domain='automationpractice.com']//form[#'account-creation_form']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="ee415d58-d71c-4056-9247-4c57885ac23a"
+				name="Address1"
+				refimgid="d7e26036-5da2-46fe-955a-bdf563c169f2"
+				refpath="/dom[@domain='automationpractice.com']//form[#'account-creation_form']/div[2]/p[4]/input[@name='address1']"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//form[#'account-creation_form']//input[@name='address1']
+				</item>
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="66520a52-b11f-454f-8d15-32a39d83df83"
+				name="FormGroupRequired"
+				refimgid="57512330-2145-40fc-9d0d-6926b9de93e6"
+				refpath="/dom[@domain='automationpractice.com']//form[#'account-creation_form']/div[2]/p[13]"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//form[#'account-creation_form']/div[2]/p[13]
+				</item>
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="f844fea4-2283-46d3-b69b-5c2e326f73cb"
+				name="FormGroupRequiredSelect"
+				refimgid="af6000bb-4635-48e0-b082-beb993da87da"
+				refpath="/dom[@domain='automationpractice.com']//form[#'account-creation_form']/div[2]/p[9]"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//form[#'account-creation_form']/div[2]/p[9]
+				</item>
+				<basepath>
+					/dom[@domain='automationpractice.com']//form[#'account-creation_form']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="3f1f15d4-c19b-42a2-b0da-1c47bf89133e"
+			name="Register"
+			refimgid="a30e08b0-2c2c-4832-a9ea-ee9fe7d1cc0d"
+			refpath="/dom[@domain='automationpractice.com']//button[#'submitAccount']/span[@innertext='Register']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//button[#'submitAccount']/span[@innertext='Register']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="9e554286-1e58-4913-aefa-0419c52ae419"
+			name="MyAccount"
+			refimgid="48cb8ba7-83ff-4f7d-9901-749b13d352ce"
+			refpath="/dom[@domain='automationpractice.com']//div[#'center_column']/h1[@innertext='My account']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//div[#'center_column']/h1[@innertext='My account']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="9c22d85a-25b6-470b-a666-a5075e7ffca1"
+			name="ColumnsContainer"
+			refimgid="a677957c-abce-4f93-b3a8-2348e43b2814"
+			refpath="/dom[@domain='automationpractice.com']//div[#'page']/div[2]"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//div[#'page']/div[2]
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="5033b500-476b-415d-80e5-f5f1102881fd"
+			name="ThereAre8Errors"
+			refimgid="c2474b20-b1aa-4468-b878-05fa9861c1d8"
+			refpath="/dom[@domain='automationpractice.com']//div[#'center_column']/div/p[@innertext='There are 8 errors']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//div[#'center_column']/?/?/p[@innertext='There are 8 errors']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="a412857e-4385-4fd8-b082-a0cf7584623f"
+			name="AlertAlertDanger"
+			refimgid="8f383397-2f5a-4e7f-8ef7-383b3c2cb863"
+			refpath="/dom[@domain='automationpractice.com']//div[#'center_column']/div"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//div[#'center_column']/div
+			</item>
+			<basepath>
+				/dom[@domain='automationpractice.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
 		<basepath>
 		</basepath>
 	</rootfolder>
