@@ -31,6 +31,7 @@ namespace TAU_Selenium_WebDriver
         TAU_Selenium_WebDriverRepositoryFolders.BioptronZepterGdanskBioptronZepterAppFolder _bioptronzeptergdanskbioptronzepter;
         TAU_Selenium_WebDriverRepositoryFolders.INKUBITMicrosoftDynamics365CRMConAppFolder _inkubitmicrosoftdynamics365crmcon;
         TAU_Selenium_WebDriverRepositoryFolders.LoginMyStoreAppFolder _loginmystore;
+        TAU_Selenium_WebDriverRepositoryFolders.LoginMyStoreGoogleChromeAppFolder _loginmystoregooglechrome;
 
         /// <summary>
         /// Gets the singleton class instance representing the TAU_Selenium_WebDriverRepository element repository.
@@ -51,6 +52,7 @@ namespace TAU_Selenium_WebDriver
             _bioptronzeptergdanskbioptronzepter = new TAU_Selenium_WebDriverRepositoryFolders.BioptronZepterGdanskBioptronZepterAppFolder(this);
             _inkubitmicrosoftdynamics365crmcon = new TAU_Selenium_WebDriverRepositoryFolders.INKUBITMicrosoftDynamics365CRMConAppFolder(this);
             _loginmystore = new TAU_Selenium_WebDriverRepositoryFolders.LoginMyStoreAppFolder(this);
+            _loginmystoregooglechrome = new TAU_Selenium_WebDriverRepositoryFolders.LoginMyStoreGoogleChromeAppFolder(this);
         }
 
 #region Variables
@@ -103,6 +105,15 @@ namespace TAU_Selenium_WebDriver
         public virtual TAU_Selenium_WebDriverRepositoryFolders.LoginMyStoreAppFolder LoginMyStore
         {
             get { return _loginmystore; }
+        }
+
+        /// <summary>
+        /// The LoginMyStoreGoogleChrome folder.
+        /// </summary>
+        [RepositoryFolder("6e69745b-77ff-457b-b155-32b0a6dcd50e")]
+        public virtual TAU_Selenium_WebDriverRepositoryFolders.LoginMyStoreGoogleChromeAppFolder LoginMyStoreGoogleChrome
+        {
+            get { return _loginmystoregooglechrome; }
         }
     }
 
@@ -1864,6 +1875,72 @@ namespace TAU_Selenium_WebDriver
                 get
                 {
                     return _formgrouprequiredselectInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The LoginMyStoreGoogleChromeAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("6e69745b-77ff-457b-b155-32b0a6dcd50e")]
+        public partial class LoginMyStoreGoogleChromeAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _paneInfo;
+
+            /// <summary>
+            /// Creates a new LoginMyStoreGoogleChrome  folder.
+            /// </summary>
+            public LoginMyStoreGoogleChromeAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("LoginMyStoreGoogleChrome", "/form[@title>'Login - My Store - Google']", parentFolder, 30000, null, true, "6e69745b-77ff-457b-b155-32b0a6dcd50e", "")
+            {
+                _paneInfo = new RepoItemInfo(this, "Pane", "container[@accessiblename>'Login - My Store - Google']/container/container[1]", 30000, null, "0e36c461-0b88-466a-a87c-490662e515c4");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("6e69745b-77ff-457b-b155-32b0a6dcd50e")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("6e69745b-77ff-457b-b155-32b0a6dcd50e")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Pane item.
+            /// </summary>
+            [RepositoryItem("0e36c461-0b88-466a-a87c-490662e515c4")]
+            public virtual Ranorex.Container Pane
+            {
+                get
+                {
+                    return _paneInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Pane item info.
+            /// </summary>
+            [RepositoryItemInfo("0e36c461-0b88-466a-a87c-490662e515c4")]
+            public virtual RepoItemInfo PaneInfo
+            {
+                get
+                {
+                    return _paneInfo;
                 }
             }
         }

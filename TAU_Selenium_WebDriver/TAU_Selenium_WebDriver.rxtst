@@ -3,6 +3,7 @@
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testcase
+			datasource="TestCase_for_LogIn_Register_Feature_DataSource"
 			id="08d52453-8c0b-4e77-aa4f-569f0ffccbad"
 			name="TestCase_for_LogIn/Register_Feature">
 				<description>
@@ -191,6 +192,36 @@
 		</childhierarchy>
 	</testsuiteentryhierarchy>
 	<datasources>
+		<DataSource
+		id="44d1addf-3384-4e70-a40c-ef89feb4bfee"
+		includefile="Checked"
+		lastknownrowcount="0"
+		name="TestCase_for_LogIn_Register_Feature_DataSource"
+		type="Ranorex.Core.Data.CsvDataConnector"
+		withheaders="True">
+			<lastknowncolumns>
+				<column>
+					PdfName
+				</column>
+				<column>
+					PdfDirectoryPath
+				</column>
+				<column>
+					Xml
+				</column>
+				<column>
+					Details
+				</column>
+				<column>
+					DeleteRanorexReport
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<file>
+				TestCase_for_LogIn_Register_Feature_DataSource1.csv
+			</file>
+		</DataSource>
 	</datasources>
 	<testconfigurations
 	default="TestRun">

@@ -90,8 +90,8 @@ namespace TAU_Selenium_WebDriver
             repo.LoginMyStore.EmailCreate.Click("96;11");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '123{LShiftKey down}@{LShiftKey up}123111.pl' with focus on 'LoginMyStore.EmailCreate'.", repo.LoginMyStore.EmailCreateInfo, new RecordItemIndex(3));
-            repo.LoginMyStore.EmailCreate.PressKeys("123{LShiftKey down}@{LShiftKey up}123111.pl");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '123{LShiftKey down}@{LShiftKey up}1231111.pl' with focus on 'LoginMyStore.EmailCreate'.", repo.LoginMyStore.EmailCreateInfo, new RecordItemIndex(3));
+            repo.LoginMyStore.EmailCreate.PressKeys("123{LShiftKey down}@{LShiftKey up}1231111.pl");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'LoginMyStore.SpanTagCreateAnAccount' at 97;18.", repo.LoginMyStore.SpanTagCreateAnAccountInfo, new RecordItemIndex(4));
@@ -241,6 +241,10 @@ namespace TAU_Selenium_WebDriver
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='My account') on item 'LoginMyStore.MyAccount'.", repo.LoginMyStore.MyAccountInfo, new RecordItemIndex(40));
             Validate.AttributeEqual(repo.LoginMyStore.MyAccountInfo, "InnerText", "My account");
             Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'LoginMyStore'.", repo.LoginMyStore.SelfInfo, new RecordItemIndex(41));
+            Host.Current.CloseApplication(repo.LoginMyStore.Self, new Duration(0));
+            Delay.Milliseconds(0);
             
         }
 

@@ -79,33 +79,53 @@ namespace TAU_Selenium_WebDriver
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'http://automationpractice.com/index.php?controller=authentication&back=my-account' with browser 'Chrome' in maximized mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser("http://automationpractice.com/index.php?controller=authentication&back=my-account", "Chrome", "", false, true, false, true, false, true);
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'http://automationpractice.com/index.php?controller=authentication&back=my-account' with browser 'Chromium' in maximized mode.", new RecordItemIndex(0));
+            Host.Current.OpenBrowser("http://automationpractice.com/index.php?controller=authentication&back=my-account", "Chromium", "", true, true, false, false, false, true);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(1));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'LoginMyStore.ColumnsContainer' at 158;566.", repo.LoginMyStore.ColumnsContainerInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'LoginMyStore.EmailCreate' at 56;13.", repo.LoginMyStore.EmailCreateInfo, new RecordItemIndex(2));
+            repo.LoginMyStore.EmailCreate.Click("56;13");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'fkmdjfkm' with focus on 'LoginMyStore.EmailCreate'.", repo.LoginMyStore.EmailCreateInfo, new RecordItemIndex(3));
+            repo.LoginMyStore.EmailCreate.PressKeys("fkmdjfkm");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '@{LShiftKey up}sdf.pl' with focus on 'LoginMyStore.EmailCreate'.", repo.LoginMyStore.EmailCreateInfo, new RecordItemIndex(4));
+            repo.LoginMyStore.EmailCreate.PressKeys("@{LShiftKey up}sdf.pl");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'LoginMyStore.SpanTagCreateAnAccount' at 87;24.", repo.LoginMyStore.SpanTagCreateAnAccountInfo, new RecordItemIndex(5));
+            repo.LoginMyStore.SpanTagCreateAnAccount.Click("87;24");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'LoginMyStore.ColumnsContainer' at 158;566.", repo.LoginMyStore.ColumnsContainerInfo, new RecordItemIndex(6));
             repo.LoginMyStore.ColumnsContainer.Click("158;566");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{End}' with focus on 'LoginMyStore'.", repo.LoginMyStore.SelfInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{End}' with focus on 'LoginMyStore'.", repo.LoginMyStore.SelfInfo, new RecordItemIndex(7));
             repo.LoginMyStore.Self.EnsureVisible();
             Keyboard.Press("{End}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'LoginMyStore.Register' at 52;24.", repo.LoginMyStore.RegisterInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'LoginMyStore.Register' at 52;24.", repo.LoginMyStore.RegisterInfo, new RecordItemIndex(8));
             repo.LoginMyStore.Register.Click("52;24");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='There are 8 errors') on item 'LoginMyStore.ThereAre8Errors'.", repo.LoginMyStore.ThereAre8ErrorsInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='There are 8 errors') on item 'LoginMyStore.ThereAre8Errors'.", repo.LoginMyStore.ThereAre8ErrorsInfo, new RecordItemIndex(9));
             Validate.AttributeEqual(repo.LoginMyStore.ThereAre8ErrorsInfo, "InnerText", "There are 8 errors");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'LoginMyStore.AlertAlertDanger'.", repo.LoginMyStore.AlertAlertDangerInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'LoginMyStore.AlertAlertDanger'.", repo.LoginMyStore.AlertAlertDangerInfo, new RecordItemIndex(10));
             Validate.Exists(repo.LoginMyStore.AlertAlertDangerInfo);
             Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'LoginMyStore'.", repo.LoginMyStore.SelfInfo, new RecordItemIndex(11));
+            Host.Current.CloseApplication(repo.LoginMyStore.Self, new Duration(0));
+            Delay.Milliseconds(0);
             
         }
 

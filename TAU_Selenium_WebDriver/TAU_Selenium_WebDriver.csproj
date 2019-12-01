@@ -356,6 +356,13 @@
       <repoid>b34ca9bb-6d54-489c-b2ac-fe86fc90194c</repoid>
       <reporootid>7826df47-3df0-4357-b90e-85b43d1dbcdc</reporootid>
     </None>
+    <Content Include="TestCase_for_LogIn_Register_Feature_DataSource1.csv">
+      <Link>TestCase_for_LogIn_Register_Feature_DataSource1.csv</Link>
+      <BoundTo>e33aff5e-8b04-4efc-bef5-3930413bdab5</BoundTo>
+      <DependentUpon>TAU_Selenium_WebDriver.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>003c0dea-fcfd-4de4-9501-c27b5f89e5f9</id>
+    </Content>
     <None Include="ValidationOfRegistrationForm.rxrec">
       <BoundTo>73e5243c-de9e-4655-89c4-9c7830fcb30e</BoundTo>
       <id>a62e382b-fcad-49a9-bd10-d52868f4f770</id>

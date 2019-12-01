@@ -436,7 +436,7 @@ UVZIUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 			</helperscreenshot>
 		</keysequenceitem>
 		<keysequenceitem
-		KeySequence="{LShiftKey down}@{LShiftKey up}123.pl"
+		KeySequence="{LShiftKey down}@{LShiftKey up}1233.pl"
 		duration="20ms"
 		enabled="True"
 		optional="False"

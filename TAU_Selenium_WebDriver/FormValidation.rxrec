@@ -249,7 +249,7 @@ UUUUAFFFFABRRRQAUUUUAFFFFABRRRQB/9k=
 			</helperscreenshot>
 		</mouseitem>
 		<keysequenceitem
-		KeySequence="123{LShiftKey down}@{LShiftKey up}123111.pl"
+		KeySequence="123{LShiftKey down}@{LShiftKey up}1231111.pl"
 		duration="20ms"
 		enabled="True"
 		optional="False"
@@ -6853,6 +6853,24 @@ RRQAUUUUAFFFFAH/2Q==
 				My account
 			</matchvalue>
 		</validationitem>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="90a35521-96b6-4e2b-a50c-d423eef67b46">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a4d61784-17fa-4817-a3b2-5f97d6ba4841"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='automationpractice.com']
+				</path>
+			</info>
+		</closeapprecorditem>
 	</recorditems>
 	<repository
 	id="b34ca9bb-6d54-489c-b2ac-fe86fc90194c"

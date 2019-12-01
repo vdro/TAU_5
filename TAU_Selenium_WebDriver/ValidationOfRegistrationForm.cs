@@ -94,8 +94,8 @@ namespace TAU_Selenium_WebDriver
             repo.LoginMyStore.EmailCreate.PressKeys("123");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LShiftKey down}@{LShiftKey up}123.pl' with focus on 'LoginMyStore.EmailCreate'.", repo.LoginMyStore.EmailCreateInfo, new RecordItemIndex(4));
-            repo.LoginMyStore.EmailCreate.PressKeys("{LShiftKey down}@{LShiftKey up}123.pl");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LShiftKey down}@{LShiftKey up}1233.pl' with focus on 'LoginMyStore.EmailCreate'.", repo.LoginMyStore.EmailCreateInfo, new RecordItemIndex(4));
+            repo.LoginMyStore.EmailCreate.PressKeys("{LShiftKey down}@{LShiftKey up}1233.pl");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'LoginMyStore.FormGroup' at 323;43.", repo.LoginMyStore.FormGroupInfo, new RecordItemIndex(5));
